@@ -2,8 +2,9 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 42,
-    "widgetName": "ButtonGroup1",
+    "widgetName": "BtnGroup",
     "isCanvas": false,
+    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton1.onClick"}],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.ae1401b479d77b1908271bdfed6d12ba.svg",
     "searchTags": [
@@ -16,29 +17,40 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton1": {
-            "buttonType": "SIMPLE",
+            "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpManaviat.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\n}}",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
-            "menuItems": {},
+            "menuItems": {"menuItemgfg7cw30dw": {
+                "widgetId": "75e8f6rvur",
+                "index": 0,
+                "id": "menuItemgfg7cw30dw",
+                "label": "Menu Item",
+                "isDisabled": false,
+                "isVisible": true
+            }},
             "index": 0,
             "label": "ارسال",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "iconAlign": "right",
             "id": "groupButton1",
             "placement": "CENTER",
-            "isVisible": true,
             "isDisabled": false
         },
         "groupButton2": {
-            "buttonType": "SIMPLE",
+            "onClick": "{{showModal('MdlReport');}}",
             "iconName": "panel-table",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
             "label": "گزارش",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "iconAlign": "right",
             "id": "groupButton2",
             "placement": "CENTER",
-            "isVisible": true,
             "isDisabled": false
         }
     },
@@ -46,7 +58,10 @@
     "mobileRightColumn": 46,
     "animateLoading": true,
     "parentColumnSpace": 6.511474609375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
     "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -73,5 +88,5 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
     "originalBottomRow": 42,
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "SECONDARY"
 }

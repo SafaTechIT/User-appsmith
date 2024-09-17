@@ -1,0 +1,2 @@
+INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork)
+  VALUES ({{SltUsers.selectedOptionValue}}, CURRENT_DATE, {{InpResponsibility.text}}, {{InpFamily.text}});

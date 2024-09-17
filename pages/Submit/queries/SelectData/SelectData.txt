@@ -1,0 +1,6 @@
+SELECT TimeUse.dateTime as t, SUM(stude), SUM(exercise), SUM(course), SUM(worship) 
+FROM TimeUse 
+WHERE userId = {{SltUsers.selectedOptionValue}} 
+GROUP BY dateTime
+ORDER BY dateTime
+DESC;

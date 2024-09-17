@@ -29,11 +29,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit_Query1",
-              "name": "Query1",
+              "id": "Submit_GetName",
+              "name": "GetName",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Submit_SelectData",
+              "name": "SelectData",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "SltUsers.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
