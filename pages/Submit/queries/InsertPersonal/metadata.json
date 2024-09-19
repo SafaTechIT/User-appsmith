@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship)\n  VALUES (\n\t\t{{SltUsers.selectedOptionValue}},\n\t\t{{new Date().toLocaleDateString('fa-IR')}},\n\t\t{{InpStudy.text}},\n\t\t{{InpSport.text}} ,\n\t\t{{InpCourse.text}},\n\t\t{{InpManaviat.text}}\n\t);",
+      "body": "INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship)\n  VALUES (\n\t\t{{SltUsers.selectedOptionValue}},\n\t\t{{new Date().toLocaleDateString('fa-IR')}},\n\t\t{{InpStudy.text}},\n\t\t{{InpSport.text}} ,\n\t\t{{InpCourse.text}},\n\t\t{{Switch1.isSwitchedOn}}\n\t);",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,10 +37,10 @@
     "messages": [],
     "jsonPathKeys": [
       "InpCourse.text",
-      "InpManaviat.text",
       "InpSport.text",
       "InpStudy.text",
       "SltUsers.selectedOptionValue",
+      "Switch1.isSwitchedOn",
       "new Date().toLocaleDateString('fa-IR')"
     ],
     "userSetOnLoad": false,

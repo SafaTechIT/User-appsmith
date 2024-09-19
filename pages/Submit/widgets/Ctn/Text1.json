@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "چه قدر درس خوندی؟",
+    "text": "میزان درس خواندن",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 57,

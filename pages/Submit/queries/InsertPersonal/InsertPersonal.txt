@@ -5,5 +5,5 @@ INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship)
 		{{InpStudy.text}},
 		{{InpSport.text}} ,
 		{{InpCourse.text}},
-		{{InpManaviat.text}}
+		{{Switch1.isSwitchedOn}}
 	);

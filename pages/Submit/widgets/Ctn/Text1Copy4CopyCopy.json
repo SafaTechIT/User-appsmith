@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 34,
-    "bottomRow": 38,
+    "topRow": 33,
+    "bottomRow": 37,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "چه قدر وقت برای خانواده ات گذاشتی؟",
+    "text": "زمان برای خانواده",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 35,
+    "originalTopRow": 34,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 39,
+    "originalBottomRow": 38,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

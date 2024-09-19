@@ -14,13 +14,13 @@
         "click",
         "submit"
     ],
-    "topRow": 39,
-    "bottomRow": 43,
+    "topRow": 38,
+    "bottomRow": 42,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton1": {
-            "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpManaviat.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\n}}",
+            "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\n}}",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -87,9 +87,9 @@
     "mobileTopRow": 38,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 40,
+    "originalTopRow": 39,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
-    "originalBottomRow": 44,
+    "originalBottomRow": 43,
     "buttonVariant": "SECONDARY"
 }

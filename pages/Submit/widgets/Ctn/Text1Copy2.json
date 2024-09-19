@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "فرم مراقبه امروز رو یادت نرفته که؟",
+    "text": "فرم مراقبه امروز",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 63,
