@@ -22,6 +22,9 @@
     }
   },
   "color": "#FFEBFB",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
