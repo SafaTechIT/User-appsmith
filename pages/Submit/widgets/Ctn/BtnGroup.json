@@ -4,7 +4,10 @@
     "mobileBottomRow": 42,
     "widgetName": "BtnGroup",
     "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.ae1401b479d77b1908271bdfed6d12ba.svg",
     "searchTags": [
@@ -39,7 +42,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{showModal('MdlReport');}}",
+            "onClick": "{{showModal('MdlReport');\nSelectData.run()}}",
             "iconName": "panel-table",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
