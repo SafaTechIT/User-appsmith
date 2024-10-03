@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "تو کی هستی؟",
+    "text": "اسم رو یپدا کن",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 50,

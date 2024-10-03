@@ -18,7 +18,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
-    "isVisible": true,
+    "isVisible": false,
     "version": 2,
     "tags": [
         "Suggested",
@@ -47,7 +47,7 @@
     "key": "mhdatqq8mp",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 27,
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "qpk6eqa4zn",
     "minWidth": 450,
