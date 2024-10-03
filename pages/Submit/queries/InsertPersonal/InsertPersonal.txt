@@ -1,9 +1,9 @@
 INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship)
   VALUES (
 		{{SltUsers.selectedOptionValue}},
-		{{new Date().toLocaleDateString('fa-IR')}},
+		{{Select1.selectedOptionValue}},
 		{{InpStudy.text}},
 		{{InpSport.text}} ,
 		{{InpCourse.text}},
-		{{Switch1.isSwitchedOn}}
+		1
 	);
