@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "میزان مطالعه غیر درسی",
+    "text": "چند دقیقه مطالعه کردی؟",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 60,

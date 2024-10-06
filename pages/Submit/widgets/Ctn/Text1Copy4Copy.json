@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 29,
-    "bottomRow": 33,
+    "bottomRow": 34,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "زمان مسئولیت گروهی",
+    "text": "چند دقیقه برای مسئولیت گروهی وقت گذاشتی",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
     "rightColumn": 64,
