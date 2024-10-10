@@ -1,9 +1,10 @@
-INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship)
+INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship, insertDate)
   VALUES (
 		{{SltUsers.selectedOptionValue}},
-		{{Select1.selectedOptionValue}},
+		{{Select1Copy.selectedOptionValue}},
 		{{InpStudy.text}},
 		{{InpSport.text}} ,
 		{{InpCourse.text}},
-		1
+		  1,
+		NOW()
 	);
