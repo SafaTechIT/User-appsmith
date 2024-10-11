@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship, insertDate)\n  VALUES (\n\t\t{{SltUsers.selectedOptionValue}},\n\t\t{{Select1Copy.selectedOptionValue}},\n\t\t{{InpStudy.text}},\n\t\t{{InpSport.text}} ,\n\t\t{{InpCourse.text}},\n\t\t  1,\n\t\tNOW()\n\t);",
+      "body": "INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship, insertDate)\n  VALUES (\n\t\t{{SltUsers.selectedOptionValue}},\n\t\t{{Select1.selectedOptionValue}},\n\t\t{{InpStudy.text}},\n\t\t{{InpSport.isSwitchedOn}} ,\n\t\t{{InpCourse.text}},\n\t\t  1,\n\t\tNOW()\n\t);",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,9 +37,9 @@
     "messages": [],
     "jsonPathKeys": [
       "InpCourse.text",
-      "InpSport.text",
+      "InpSport.isSwitchedOn",
       "InpStudy.text",
-      "Select1Copy.selectedOptionValue",
+      "Select1.selectedOptionValue",
       "SltUsers.selectedOptionValue"
     ],
     "userSetOnLoad": false,
