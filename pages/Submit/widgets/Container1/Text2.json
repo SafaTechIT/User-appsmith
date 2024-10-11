@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.511474609375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 39,
+    "leftColumn": 29,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "اسمت رو یپدا کن",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 45,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

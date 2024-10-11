@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 38,
-    "bottomRow": 42,
+    "topRow": 39,
+    "bottomRow": 43,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 8.37255859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 23,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "زمان برای خانواده",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 58,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 38,
+    "originalTopRow": 39,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 42,
+    "originalBottomRow": 43,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

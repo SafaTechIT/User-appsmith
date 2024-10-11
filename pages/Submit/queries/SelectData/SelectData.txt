@@ -1,6 +1,5 @@
-SELECT TimeUse.dateTime as t, SUM(stude), SUM(exercise), SUM(course), SUM(worship) 
+SELECT dateTime as t, stude, exercise, course, worship, insertDate
 FROM TimeUse 
 WHERE userId = {{SltUsers.selectedOptionValue}} 
-GROUP BY dateTime
 ORDER BY dateTime
 DESC;
