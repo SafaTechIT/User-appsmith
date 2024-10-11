@@ -14,8 +14,8 @@
         "click",
         "submit"
     ],
-    "topRow": 42,
-    "bottomRow": 46,
+    "topRow": 44,
+    "bottomRow": 48,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -80,7 +80,7 @@
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "ekeyk623j4",
+    "parentId": "0sdqbzne9p",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
