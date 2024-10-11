@@ -50,7 +50,7 @@
     "rightColumn": 30,
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "wkuzqfmm3f",
-    "errorMessage": "لطفا اعداد را به انگلیسی وارد کنید",
+    "errorMessage": "",
     "minWidth": 450,
     "label": "",
     "parentId": "39a2ad02fz",
@@ -62,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": true,
     "iconAlign": "left",
-    "defaultText": "محل وارد کردن رمز عبور",
+    "defaultText": "",
     "minDynamicHeight": 4
 }
