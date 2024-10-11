@@ -3,7 +3,8 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 18,
-    "widgetName": "Button1",
+    "widgetName": "BtnEnter",
+    "onClick": "{{navigateTo('Submit', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
@@ -19,7 +20,7 @@
     "mobileRightColumn": 25,
     "animateLoading": true,
     "parentColumnSpace": 6.3173828125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 9,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
