@@ -12,7 +12,7 @@
         {"key": "borderRadius"}
     ],
     "labelStyle": "",
-    "inputType": "TEXT",
+    "inputType": "PASSWORD",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -60,6 +60,7 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
+    "shouldAllowAutofill": true,
     "iconAlign": "left",
     "defaultText": "محل وارد کردن رمز عبور",
     "minDynamicHeight": 4
