@@ -1,0 +1,2 @@
+SELECT * FROM UserAuth
+JOIN Users ON Users.userId=UserAuth.userid;
