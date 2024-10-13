@@ -1,2 +1,8 @@
-INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork)
-  VALUES ({{SltUsers.selectedOptionValue}}, CURRENT_DATE, {{InpResponsibility.text}}, 0);
+INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork, insertDate)
+  VALUES (
+		{{SltUsers.selectedOptionValue}},
+		{{Select1.selectedOptionValue}},
+		{{InpResponsibility.text}},
+		0,
+		NOW()
+	);
