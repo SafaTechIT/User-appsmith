@@ -22,11 +22,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "گزارش",
+    "text": "گزارش {{SltUsers.selectedOptionLabel}}",
     "key": "b140hpyhpq",
     "isDeprecated": false,
     "rightColumn": 41,

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "DeleteRecord",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -15,9 +15,10 @@
     },
     "pageId": "Submit",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Event LIMIT 10;",
+      "body": "DELETE FROM TimeUse\n  WHERE id = {{this.params.id}}; -- Specify a valid condition here. Removing the condition may delete everything in the table!",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,17 +27,24 @@
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "this.params.id"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2024-10-11T15:45:46Z"
   },
-  "id": "Submit_Query1",
+  "id": "Submit_DeleteRecord",
   "deleted": false,
   "gitSyncId": "66d763beedc53936732abcef_72ca0870-c39e-4198-a555-46da2fbdd78c"
 }

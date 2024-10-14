@@ -1,4 +1,4 @@
-SELECT dateTime as t, stude, exercise, course, worship, insertDate
+SELECT id, dateTime as t, stude, exercise, course
 FROM TimeUse 
 WHERE userId = {{SltUsers.selectedOptionValue}} 
 ORDER BY dateTime

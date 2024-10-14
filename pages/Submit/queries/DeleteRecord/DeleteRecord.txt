@@ -1,0 +1,2 @@
+DELETE FROM TimeUse
+  WHERE id = {{this.params.id}}; -- Specify a valid condition here. Removing the condition may delete everything in the table!
