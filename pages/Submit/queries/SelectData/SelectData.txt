@@ -1,5 +1,5 @@
 SELECT id, dateTime as t, stude, exercise, course
 FROM TimeUse 
-WHERE userId = {{SltUsers.selectedOptionValue}} 
+WHERE userId = {{appsmith.store.userId}} 
 ORDER BY dateTime
 DESC;

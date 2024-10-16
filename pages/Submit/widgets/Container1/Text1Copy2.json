@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 27,
-    "bottomRow": 31,
+    "topRow": 31,
+    "bottomRow": 35,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 8.37255859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 28,
+    "leftColumn": 27,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "فرم مراقبه امروز",
     "key": "ujw2fmi43t",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 60,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 27,
+    "originalTopRow": 31,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 31,
+    "originalBottomRow": 35,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

@@ -29,6 +29,28 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Submit_GetPassword",
+              "name": "GetPassword",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.userId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Submit_SelectData",
+              "name": "SelectData",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.userId"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Submit_GetName",
               "name": "GetName",
               "confirmBeforeExecute": false,
@@ -39,12 +61,12 @@
           ],
           [
             {
-              "id": "Submit_SelectData",
-              "name": "SelectData",
+              "id": "Submit_GetUesrName",
+              "name": "GetUesrName",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "SltUsers.selectedOptionValue"
+                "appsmith.store.userId"
               ],
               "timeoutInMillisecond": 10000
             }

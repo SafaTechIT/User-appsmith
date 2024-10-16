@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "SelectData",
+    "name": "GetPassword",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT id, dateTime as t, stude, exercise, course\nFROM TimeUse \nWHERE userId = {{appsmith.store.userId}} \nORDER BY dateTime\nDESC;",
+      "body": "SELECT * FROM Abroody_1 WHERE userid={{appsmith.store.userId}} LIMIT 1;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,13 +38,13 @@
     "jsonPathKeys": [
       "appsmith.store.userId"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-17T16:23:52Z"
+    "createdAt": "2024-10-16T15:32:24Z"
   },
-  "id": "Submit_SelectData",
+  "id": "Submit_GetPassword",
   "deleted": false,
-  "gitSyncId": "66d763beedc53936732abcef_6a9a8eb0-807d-4b42-8277-f9f8e776f26e"
+  "gitSyncId": "66d763beedc53936732abcef_cd8c801a-350d-46e3-911b-3db71940e1b5"
 }

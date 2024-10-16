@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "گزارش {{SltUsers.selectedOptionLabel}}",
+    "text": "گزارش {{GetUesrName.data[0].name}}",
     "key": "b140hpyhpq",
     "isDeprecated": false,
     "rightColumn": 41,

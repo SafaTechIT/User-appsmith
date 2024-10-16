@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM UserAuth\nJOIN Users ON Users.userId=UserAuth.userid;",
+      "body": "SELECT * FROM Abroody_1 LIMIT 1;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-12T05:24:54Z"
+    "createdAt": "2024-10-16T15:18:50Z"
   },
   "id": "Login_GetUsername",
   "deleted": false,
-  "gitSyncId": "66d763beedc53936732abcef_cade8504-d8b1-4333-b88f-e1cd2bd0ca36"
+  "gitSyncId": "66d763beedc53936732abcef_c03f021b-cf7a-43be-818e-5900ee7b6713"
 }

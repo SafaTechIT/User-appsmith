@@ -1,2 +1,1 @@
-SELECT * FROM UserAuth
-JOIN Users ON Users.userId=UserAuth.userid;
+SELECT * FROM Abroody_1 LIMIT 1;

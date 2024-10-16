@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "DisableConfirm",
+    "pageId": "Submit",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Submit_DisableConfirm",
+  "deleted": false,
+  "gitSyncId": "66d763beedc53936732abcef_604c96aa-79c9-41d7-8f57-254c6585936b"
+}
