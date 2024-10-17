@@ -7,7 +7,7 @@
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "topRowBeforeCollapse": 4,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( new Date().toLocaleDateString('fa-IR')))(Select1.options, Select1.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( new Date().toLocaleDateString('fa-IR')))(Select.options, Select.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -23,7 +23,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "bottomRowBeforeCollapse": 8,
-    "isVisible": false,
+    "isVisible": true,
     "version": 1,
     "tags": [
         "Suggested",
@@ -34,7 +34,7 @@
     "originalBottomRow": 15,
     "needsErrorInfo": false,
     "mobileBottomRow": 12,
-    "widgetName": "Select1",
+    "widgetName": "Select",
     "isFilterable": true,
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",

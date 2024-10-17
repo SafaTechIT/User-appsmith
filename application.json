@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "Submit",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,
