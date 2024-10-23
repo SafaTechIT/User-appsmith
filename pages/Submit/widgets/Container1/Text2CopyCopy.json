@@ -5,13 +5,13 @@
     "dynamicPropertyPathList": [{"key": "fontFamily"}],
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 17,
+    "topRow": 15,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 22,
+    "bottomRow": 19,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 15,
+    "originalTopRow": 17,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 36,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 19,
+    "originalBottomRow": 22,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

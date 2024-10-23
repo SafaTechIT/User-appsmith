@@ -80,7 +80,7 @@
         {"key": "primaryColumns.customColumn1.onClick"}
     ],
     "displayName": "Table",
-    "bottomRow": 34,
+    "bottomRow": 42,
     "columnWidthMap": {
         "SUM_exercise_": 91,
         "t": 96,
