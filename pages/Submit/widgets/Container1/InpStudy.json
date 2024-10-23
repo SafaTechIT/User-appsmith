@@ -25,6 +25,7 @@
         "Suggested",
         "Inputs"
     ],
+    "minNum": "0",
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 27,

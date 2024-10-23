@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Abrody",
+    "pageId": "Submit",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Submit_Abrody",
+  "deleted": false,
+  "gitSyncId": "66d763beedc53936732abcef_6839c203-33b0-437c-bb6e-0da07da18b5d"
+}
