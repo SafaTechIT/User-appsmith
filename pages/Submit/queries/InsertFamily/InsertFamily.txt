@@ -1,7 +1,7 @@
 INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork, insertDate)
   VALUES (
 		{{appsmith.store.userId}},
-		{{Select1Copy.selectedOptionValue}},
+		{{Select.selectedOptionValue}},
 		{{InpResponsibility.text}},
 		0,
 		NOW()

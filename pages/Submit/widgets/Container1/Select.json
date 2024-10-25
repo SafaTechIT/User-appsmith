@@ -23,7 +23,7 @@
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "bottomRowBeforeCollapse": 8,
-    "isVisible": false,
+    "isVisible": true,
     "version": 1,
     "tags": [
         "Suggested",
