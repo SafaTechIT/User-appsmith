@@ -1,95 +1,117 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 42,
-    "widgetName": "BtnGroup",
-    "isCanvas": false,
-    "dynamicPropertyPathList": [
-        {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton2.onClick"}
-    ],
-    "displayName": "Button Group",
-    "iconSVG": "/static/media/icon.ae1401b479d77b1908271bdfed6d12ba.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 48,
-    "bottomRow": 52,
-    "parentRowSpace": 10,
-    "type": "BUTTON_GROUP_WIDGET",
-    "groupButtons": {
-        "groupButton1": {
-            "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\n}}",
-            "iconName": "send-message",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {"menuItemgfg7cw30dw": {
-                "widgetId": "75e8f6rvur",
-                "index": 0,
-                "id": "menuItemgfg7cw30dw",
-                "label": "Menu Item",
-                "isDisabled": false,
-                "isVisible": true
-            }},
-            "index": 0,
-            "label": "ارسال",
-            "isVisible": true,
-            "buttonType": "SIMPLE",
-            "iconAlign": "right",
-            "id": "groupButton1",
-            "placement": "CENTER",
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "onClick": "{{showModal('MdlReport');\nSelectData.run()}}",
-            "iconName": "panel-table",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "گزارش",
-            "isVisible": true,
-            "buttonType": "SIMPLE",
-            "iconAlign": "right",
-            "id": "groupButton2",
-            "placement": "CENTER",
-            "isDisabled": false
-        }
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "buttonVariant": "SECONDARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "hideCard": false,
-    "mobileRightColumn": 46,
-    "animateLoading": true,
-    "parentColumnSpace": 6.511474609375,
-    "dynamicTriggerPathList": [
-        {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton2.onClick"}
-    ],
-    "leftColumn": 7,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
-    ],
-    "key": "3q0wkj0k4i",
-    "orientation": "horizontal",
-    "isDeprecated": false,
-    "rightColumn": 53,
-    "thumbnailSVG": "/static/media/thumbnail.eaa22f923be763e8779a46432554f1ed.svg",
-    "widgetId": "2dgikwibdi",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0sdqbzne9p",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 38,
-    "responsiveBehavior": "fill",
-    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 54,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 22,
-    "originalBottomRow": 58,
-    "buttonVariant": "SECONDARY"
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "send-message",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ارسال",
+      "menuItems": {
+        "menuItemgfg7cw30dw": {
+          "id": "menuItemgfg7cw30dw",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item",
+          "widgetId": "75e8f6rvur"
+        }
+      },
+      "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\n}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "panel-table",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "گزارش",
+      "menuItems": {},
+      "onClick": "{{showModal('MdlReport');\nSelectData.run()}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ae1401b479d77b1908271bdfed6d12ba.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "3q0wkj0k4i",
+  "leftColumn": 7,
+  "minWidth": 450,
+  "mobileBottomRow": 42,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 38,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 58,
+  "originalTopRow": 54,
+  "parentColumnSpace": 6.511474609375,
+  "parentId": "0sdqbzne9p",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 53,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.eaa22f923be763e8779a46432554f1ed.svg",
+  "topRow": 48,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "2dgikwibdi",
+  "widgetName": "BtnGroup"
 }

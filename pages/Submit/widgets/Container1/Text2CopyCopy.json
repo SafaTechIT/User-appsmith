@@ -1,61 +1,71 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 5,
-    "widgetName": "Text2CopyCopy",
-    "dynamicPropertyPathList": [{"key": "fontFamily"}],
-    "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
-    "displayName": "Text",
-    "topRow": 15,
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "bottomRow": 19,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 52,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 6.511474609375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 27,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "اطلاعات کدوم روز رو ثبت میکنی؟",
-    "key": "ujw2fmi43t",
-    "isDeprecated": false,
-    "rightColumn": 59,
-    "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "8ovst7dq13",
-    "minWidth": 450,
-    "isVisible": false,
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "0sdqbzne9p",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "isLoading": false,
-    "renderMode": "CANVAS",
-    "mobileTopRow": 1,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 17,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 36,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 22,
-    "fontSize": "1rem",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "ujw2fmi43t",
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 22,
+  "originalTopRow": 17,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.511474609375,
+  "parentId": "0sdqbzne9p",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "اطلاعات کدوم روز رو ثبت میکنی؟",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
+  "topRow": 15,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "8ovst7dq13",
+  "widgetName": "Text2CopyCopy"
 }
