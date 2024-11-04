@@ -1,0 +1,2 @@
+INSERT INTO Report (targetId, sourceId, typeId, dateTime)
+  VALUES ({{appsmith.store.id}},{{SlcRespons.selectedOptionValue}} , {{SlcType.selectedOptionValue}}, {{InpDate.text}});

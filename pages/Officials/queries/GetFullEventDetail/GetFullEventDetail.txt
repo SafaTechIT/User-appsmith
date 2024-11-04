@@ -1,0 +1,1 @@
+SELECT e.date, SUM(ed.status) AS s FROM Event e LEFT JOIN EventDetails ed ON ed.eventId=e.id GROUP BY e.date;

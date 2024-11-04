@@ -1,0 +1,2 @@
+INSERT INTO EventDetails (userId, eventId, status)
+  VALUES ({{appsmith.store.apsentId}}, {{appsmith.store.eventId}}, 0);

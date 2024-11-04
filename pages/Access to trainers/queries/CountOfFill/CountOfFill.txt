@@ -1,0 +1,4 @@
+SELECT Users.name, COUNT(stude) fill FROM TimeUse
+JOIN Users on TimeUse.userId=Users.userId
+GROUP By Users.name
+ORDER BY fill DESC;

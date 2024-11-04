@@ -1,0 +1,2 @@
+DELETE FROM EventDetails
+  WHERE userId = {{appsmith.store.refresh}};

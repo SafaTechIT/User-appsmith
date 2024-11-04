@@ -1,0 +1,2 @@
+INSERT INTO Event (name, date)
+  VALUES ({{InpNameEvent.text}}, {{InpDateEvent.text}});

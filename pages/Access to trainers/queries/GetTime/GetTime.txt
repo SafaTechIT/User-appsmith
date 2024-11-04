@@ -1,0 +1,4 @@
+SELECT Users.userId, (SELECT Users.name FROM Users WHERE Users.userId=TimeUse.userId) n,SUM(stude) s, SUM(exercise) e, SUM(course) c FROM TimeUse
+JOIN Users on TimeUse.userId=Users.userId
+GROUP BY Users.userId
+ORDER BY Users.userId;

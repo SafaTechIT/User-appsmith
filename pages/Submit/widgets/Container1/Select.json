@@ -67,7 +67,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"امروز\",\n    \"code\": {{new Date().toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": \"دیروز\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}}\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": {{new Date().toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date().toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}}\n  }\n]",
   "tags": [
     "Suggested",
     "Select"

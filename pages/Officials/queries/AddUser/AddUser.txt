@@ -1,0 +1,2 @@
+INSERT INTO Users (userId, name, phone, roll)
+  VALUES ({{InpUesrid.text}}, {{InpName.text}}, {{InpPhone.text}}, 4);

@@ -1,0 +1,5 @@
+SELECT Users.name x,COUNT(stude) AS y
+FROM TimeUse
+JOIN Users ON Users.userId=TimeUse.userId
+GROUP BY name
+ORDER BY y DESC;

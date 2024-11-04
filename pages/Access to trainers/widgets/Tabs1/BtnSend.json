@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 44,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "etm0kd2rdw",
+  "leftColumn": 23,
+  "minWidth": 120,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "originalBottomRow": 44,
+  "originalTopRow": 40,
+  "parentColumnSpace": 6.53125,
+  "parentId": "f5rm1o3cfs",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 39,
+  "text": "ارسال",
+  "topRow": 40,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ny7li0iuw8",
+  "widgetName": "BtnSend"
+}

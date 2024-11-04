@@ -1,1 +1,1 @@
-SELECT * FROM Users WHERE roll=3 OR roll=4 ORDER BY userId;
+SELECT * FROM Users WHERE roll=3 OR roll=4 OR roll=2 ORDER BY userId;

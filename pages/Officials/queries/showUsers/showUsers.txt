@@ -1,0 +1,1 @@
+SELECT u.userId AS id, u.name, r.`name` AS roll FROM Users u JOIN RollType r ON r.id=u.roll ORDER BY u.userId;

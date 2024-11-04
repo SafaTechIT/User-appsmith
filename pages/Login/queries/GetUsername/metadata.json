@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM Abroody_1;",
+      "body": "SELECT Abroody_1.*, Users.roll\nFROM Abroody_1\nJOIN Users ON Users.userId=Abroody_1.userid\nORDER BY Abroody_1.userid;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

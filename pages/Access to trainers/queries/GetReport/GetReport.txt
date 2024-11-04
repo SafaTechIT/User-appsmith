@@ -1,0 +1,4 @@
+SELECT Report.id, Users.name AS name, ReportType.name AS report, Report.dateTime
+FROM Report
+JOIN Users ON Users.userId=Report.targetId
+JOIN ReportType ON ReportType.id=Report.typeId;

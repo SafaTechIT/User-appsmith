@@ -33,6 +33,26 @@
     {
       "id": "Login",
       "isDefault": true
+    },
+    {
+      "id": "Access to trainers",
+      "isDefault": false
+    },
+    {
+      "id": "Officials",
+      "isDefault": false
+    },
+    {
+      "id": "Menu Student",
+      "isDefault": false
+    },
+    {
+      "id": "KomakMorabbi",
+      "isDefault": false
+    },
+    {
+      "id": "Morabbi",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -1,0 +1,1 @@
+SELECT Users.name ,Scores.course, Scores.exercise, Scores.study, Scores.userId FROM Scores JOIN Users ON Users.userId=Scores.userId ORDER BY Scores.userId;

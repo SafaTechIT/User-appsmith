@@ -1,0 +1,2 @@
+INSERT INTO Abroody_1 (userid, password)
+  VALUES ({{InpUesrid.text}}, {{InpUesrid.text}});

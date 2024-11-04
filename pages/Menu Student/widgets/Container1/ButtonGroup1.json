@@ -1,0 +1,95 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "groupButtons": {
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "blocked-person",
+      "id": "groupButton2",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ثبت اطلاعات",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "panel-table",
+      "id": "groupButton3",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "نتایج",
+      "menuItems": {
+        "menuItem3": {
+          "backgroundColor": "#DD4B34",
+          "iconAlign": "right",
+          "iconColor": "#FFFFFF",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "نتایج",
+          "onClick": "",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iryn03n58k",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 19,
+  "originalTopRow": 13,
+  "parentColumnSpace": 2.78857421875,
+  "parentId": "wpn1ifjk6f",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 12,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "f799jxmn8v",
+  "widgetName": "ButtonGroup1"
+}
