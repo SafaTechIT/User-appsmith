@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_6651121d-9ec0-461a-8a41-1e3a78d036d6",
-  "id": "Access to trainers_GetReport",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_2d99d550-30d8-4701-9c84-109d27bc1a6f",
+  "id": "Morabbi_GetTime",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT Report.id, Users.name AS name, ReportType.name AS report, Report.dateTime\nFROM Report\nJOIN Users ON Users.userId=Report.targetId\nJOIN ReportType ON ReportType.id=Report.typeId;",
+      "body": "SELECT Users.userId, (SELECT Users.name FROM Users WHERE Users.userId=TimeUse.userId) n,SUM(stude) s, SUM(exercise) e, SUM(course) c FROM TimeUse\nJOIN Users on TimeUse.userId=Users.userId\nGROUP BY Users.userId\nORDER BY Users.userId;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -24,8 +24,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "GetReport",
-    "pageId": "Access to trainers",
+    "name": "GetTime",
+    "pageId": "Morabbi",
     "userSetOnLoad": false
   }
 }

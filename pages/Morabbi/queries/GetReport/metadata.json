@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_a506da5e-d340-48c5-8eeb-7627b5ea599a",
-  "id": "Access to trainers_ChartDatas",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_6651121d-9ec0-461a-8a41-1e3a78d036d6",
+  "id": "Morabbi_GetReport",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT Users.name x,COUNT(stude) AS y\nFROM TimeUse\nJOIN Users ON Users.userId=TimeUse.userId\nGROUP BY name\nORDER BY y DESC;",
+      "body": "SELECT Report.id, Users.name AS name, ReportType.name AS report, Report.dateTime\nFROM Report\nJOIN Users ON Users.userId=Report.targetId\nJOIN ReportType ON ReportType.id=Report.typeId;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -24,8 +24,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "ChartDatas",
-    "pageId": "Access to trainers",
+    "name": "GetReport",
+    "pageId": "Morabbi",
     "userSetOnLoad": false
   }
 }

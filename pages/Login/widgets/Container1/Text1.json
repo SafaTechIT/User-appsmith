@@ -25,7 +25,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "yllldx60f3",
-  "leftColumn": 39,
+  "leftColumn": 36,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -42,7 +42,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 52,
   "searchTags": [
     "typography",
     "paragraph",

@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 50,
+  "bottomRow": 202,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1900,
+      "bottomRow": 1970,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -59,7 +59,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1950,
+      "bottomRow": 1970,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -108,7 +108,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1240,
+      "bottomRow": 1970,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -204,7 +204,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 450,
+      "bottomRow": 1970,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -252,7 +252,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 450,
+      "bottomRow": 1970,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -270,7 +270,7 @@
       "flexLayers": [],
       "isLoading": false,
       "isVisible": true,
-      "key": "2btbpp7zce",
+      "key": "yed3x8gp6i",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -287,12 +287,12 @@
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
       "rightColumn": 438,
-      "tabId": "tab5hn0k3z6yn",
-      "tabName": "ثبت",
+      "tabId": "tabq5i8rhem4q",
+      "tabName": "سخن مربی",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "f5rm1o3cfs",
+      "widgetId": "bpzxzfxxjn",
       "widgetName": "Canvas6"
     }
   ],
@@ -310,7 +310,11 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tabq5i8rhem4q.isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -329,7 +333,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 50,
+  "originalBottomRow": 27,
   "originalTopRow": 1,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -358,13 +362,6 @@
       "positioning": "vertical",
       "widgetId": "qidbeoe1i9"
     },
-    "tab5hn0k3z6yn": {
-      "id": "tab5hn0k3z6yn",
-      "index": 5,
-      "isVisible": true,
-      "label": "ثبت",
-      "widgetId": "f5rm1o3cfs"
-    },
     "tabkc80s14ahu": {
       "id": "tabkc80s14ahu",
       "index": 3,
@@ -380,6 +377,13 @@
       "isVisible": true,
       "label": "نمره نهایی",
       "widgetId": "c3ne5vzo3a"
+    },
+    "tabq5i8rhem4q": {
+      "id": "tabq5i8rhem4q",
+      "index": 5,
+      "isVisible": "true",
+      "label": "سخن مربی",
+      "widgetId": "bpzxzfxxjn"
     },
     "tabtvlex4dons": {
       "id": "tabtvlex4dons",

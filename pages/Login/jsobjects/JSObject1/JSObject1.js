@@ -7,7 +7,8 @@ export default {
 					var key = iterator.roll
 					storeValue("userId",usr)
 					switch(key){
-           	case 4||3:
+           	case 4:
+						case 3:
 							navigateTo('Submit', {}, 'SAME_WINDOW').then(() => {})
            		break;
 						case 1:
