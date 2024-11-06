@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork, insertDate)\n  VALUES (\n\t\t{{appsmith.store.userId}},\n\t\t{{Select.selectedOptionValue}},\n\t\t{{InpResponsibility.text}},\n\t\t0,\n\t\tNOW()\n\t);",
+      "body": "INSERT INTO Responsibility (userId, dateTime, responsibility, homeWork, insertDate)\n  VALUES (\n\t\t{{appsmith.store.userId}},\n\t\t{{Select1Copy.selectedOptionValue}},\n\t\t{{InpResponsibility.text}},\n\t\t0,\n\t\tNOW()\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

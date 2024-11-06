@@ -35,7 +35,7 @@
   "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "wowkg08hw3",
   "labelAlignment": "left",
   "labelPosition": "Top",

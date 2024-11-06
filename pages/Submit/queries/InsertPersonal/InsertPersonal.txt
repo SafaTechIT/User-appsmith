@@ -1,7 +1,7 @@
 INSERT INTO TimeUse (userId, dateTime, stude, exercise, course, worship, insertDate)
   VALUES (
 		{{appsmith.store.userId}},
-		{{Select.selectedOptionValue}},
+		{{Select1Copy.selectedOptionValue}},
 		{{InpStudy.text}},
 		{{InpSport.isSwitchedOn}} ,
 		{{InpCourse.text}},

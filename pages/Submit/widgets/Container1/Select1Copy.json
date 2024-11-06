@@ -35,7 +35,7 @@
   "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": false,
+  "isVisible": true,
   "key": "wowkg08hw3",
   "labelAlignment": "left",
   "labelPosition": "Top",
@@ -66,7 +66,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"چهارشنبه\",\n    \"code\": {{new Date().toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": \"سه‌شنبه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": \"دوشنبه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 2)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": \"یکشنبه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 3)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": \"شنبه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 4)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": \"جمعه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 5)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": \"پنجشنبه\",\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 6)).toLocaleDateString('fa-IR')}}\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": {{new Date().toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date().toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 2)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 2)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\":{{new Date(new Date().setDate(new Date().getDate() - 3)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 3)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 4)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 4)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 5)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 5)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 6)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 6)).toLocaleDateString('fa-IR')}}\n  }\n]",
   "tags": [
     "Suggested",
     "Select"
