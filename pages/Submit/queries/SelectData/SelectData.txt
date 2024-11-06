@@ -1,4 +1,4 @@
-SELECT id, dateTime as t, stude, exercise, course
+SELECT id, dateTime as t, stude, exercise, course, insertDate
 FROM TimeUse 
 WHERE userId = {{appsmith.store.userId}} 
 ORDER BY dateTime

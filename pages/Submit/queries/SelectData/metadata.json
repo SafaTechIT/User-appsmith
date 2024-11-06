@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id, dateTime as t, stude, exercise, course\nFROM TimeUse \nWHERE userId = {{appsmith.store.userId}} \nORDER BY dateTime\nDESC;",
+      "body": "SELECT id, dateTime as t, stude, exercise, course, insertDate\nFROM TimeUse \nWHERE userId = {{appsmith.store.userId}} \nORDER BY dateTime\nDESC;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "SelectData",
     "pageId": "Submit",
     "userSetOnLoad": false
