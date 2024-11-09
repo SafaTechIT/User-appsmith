@@ -1,0 +1,8 @@
+INSERT INTO SelectedStudent (testNumber, studyCount, userId, insertDate, userDate)
+  VALUES (
+		{{InpTest.text}},
+		{{InpCourse.text}},
+		{{appsmith.store.userId}},
+		{{Select1Copy.selectedOptionValue}},
+		NOW()
+	);

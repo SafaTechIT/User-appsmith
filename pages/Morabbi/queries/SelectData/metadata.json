@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66d763beedc53936732abcef_dc6603f4-3c69-4ac2-9dd7-1413bb2816c2",
-  "id": "Submit_GetName",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_a65dcb7d-ed38-4d66-89ef-415bc9a6d3b5",
+  "id": "Morabbi_SelectData",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM Users WHERE roll=3 OR roll=4 OR roll=2 ORDER BY userId;",
+      "body": "SELECT measage as y\nFROM measageMorabbi \nWHERE source = {{appsmith.store.userId}} \nORDER BY insertDate\nDESC;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,10 +22,14 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": false,
-    "name": "GetName",
-    "pageId": "Submit",
+    "name": "SelectData",
+    "pageId": "Morabbi",
     "userSetOnLoad": false
   }
 }

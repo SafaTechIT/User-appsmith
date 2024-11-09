@@ -1,0 +1,5 @@
+SELECT measage as y
+FROM measageMorabbi 
+WHERE source = {{appsmith.store.userId}} 
+ORDER BY insertDate
+DESC;

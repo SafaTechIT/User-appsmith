@@ -14,8 +14,16 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "right",
   "iconName": "send-message",
   "isDefaultClickDisabled": true,
@@ -30,6 +38,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 16,
   "needsErrorInfo": false,
+  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
   "originalBottomRow": 20,
   "originalTopRow": 16,
   "parentColumnSpace": 6.53125,
