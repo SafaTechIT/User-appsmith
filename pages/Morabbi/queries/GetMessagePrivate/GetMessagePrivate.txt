@@ -1,0 +1,3 @@
+SELECT Users.name, MessagePrivate.message
+FROM MessagePrivate
+JOIN Users ON Users.userId=MessagePrivate.dest;

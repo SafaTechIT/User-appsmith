@@ -31,15 +31,15 @@
     }
   },
   "columnOrder": [
-    "t",
     "stude",
+    "t",
     "exercise",
     "course",
     "customColumn1",
     "id",
     "insertDate"
   ],
-  "columnUpdatedAt": 1730878121344,
+  "columnUpdatedAt": 1731122448966,
   "columnWidthMap": {
     "course": 88,
     "exercise": 114.5455322265625,
@@ -95,6 +95,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [

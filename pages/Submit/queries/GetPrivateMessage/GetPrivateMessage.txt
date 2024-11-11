@@ -1,0 +1,1 @@
+SELECT * FROM MessagePrivate WHERE dest={{appsmith.store.userId}} LIMIT 10;

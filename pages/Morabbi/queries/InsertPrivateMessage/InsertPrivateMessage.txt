@@ -1,0 +1,2 @@
+INSERT INTO MessagePrivate (source, dest, message)
+  VALUES ({{appsmith.store.userId}}, {{SltUser.selectedOptionValue}}, {{InpMessagePrivate.text}});

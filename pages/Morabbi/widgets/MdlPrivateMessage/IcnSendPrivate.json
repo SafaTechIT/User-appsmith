@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "send-message",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8dhz2r87t2",
+  "leftColumn": 55,
+  "minWidth": 50,
+  "mobileBottomRow": 52,
+  "mobileLeftColumn": 57,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 48,
+  "needsErrorInfo": false,
+  "onClick": "{{InsertPrivateMessage.run().then(() => {\n\t\n  showAlert('پیام با موفقیت ارسال شد', 'success');\n  GetMessagePrivate.run();\nInpMessagePrivate.setValue(\"\");\n});}}",
+  "originalBottomRow": 52,
+  "originalTopRow": 47,
+  "parentColumnSpace": 6.4921875,
+  "parentId": "53xbiz6lkd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 47,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gu4egnpi5g",
+  "widgetName": "IcnSendPrivate"
+}

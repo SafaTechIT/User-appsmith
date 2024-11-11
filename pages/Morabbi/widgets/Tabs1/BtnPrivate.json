@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 18,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,33 +14,28 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
   "iconAlign": "right",
-  "iconName": "send-message",
+  "iconName": "person",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "d58t02nyvc",
-  "leftColumn": 25,
+  "key": "p8a7nsqlis",
+  "leftColumn": 44,
   "minWidth": 120,
-  "mobileBottomRow": 20,
-  "mobileLeftColumn": 25,
-  "mobileRightColumn": 41,
-  "mobileTopRow": 16,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
-  "originalBottomRow": 25,
-  "originalTopRow": 21,
+  "onClick": "{{showModal(MdlPrivateMessage.name);}}",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
   "parentColumnSpace": 6.53125,
   "parentId": "bpzxzfxxjn",
   "parentRowSpace": 10,
@@ -49,11 +44,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 41,
-  "text": "ارسال",
-  "topRow": 21,
+  "rightColumn": 64,
+  "text": "پیام شخصی",
+  "topRow": 14,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ungu1t1tp3",
-  "widgetName": "Button1"
+  "widgetId": "7h1mdz1tn3",
+  "widgetName": "BtnPrivate"
 }

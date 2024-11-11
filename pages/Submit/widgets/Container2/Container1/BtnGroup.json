@@ -24,9 +24,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "groupButtons.groupButton1.onClick"
-    },
-    {
-      "key": "groupButtons.groupButton2.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -100,7 +97,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 57,
   "searchTags": [
     "click",
     "submit"

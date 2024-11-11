@@ -61,6 +61,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
   "height": 430,
   "hideCard": false,
   "iconSVG": "/static/media/icon.4b2718a4b16cd370332555ef28633b8d.svg",
@@ -77,6 +78,7 @@
   "mobileRightColumn": 9,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
+  "onClose": "{{}}",
   "parentColumnSpace": 13.234375,
   "parentId": "0",
   "parentRowSpace": 10,
