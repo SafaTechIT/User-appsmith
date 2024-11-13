@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 85,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 81,
   "needsErrorInfo": false,
-  "originalBottomRow": 84,
-  "originalTopRow": 79,
+  "originalBottomRow": 85,
+  "originalTopRow": 80,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -41,7 +41,7 @@
   "text": "پیام مربی",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 79,
+  "topRow": 80,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 51,
+  "bottomRow": 8,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( GetUsers.data[0].userId))(SltUser.options, SltUser.serverSideFiltering) }}",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,9 +14,6 @@
     },
     {
       "key": "sourceData"
-    },
-    {
-      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -25,43 +22,47 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "y5uis0ytni",
+  "key": "wx3rpc53tp",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "",
+  "labelStyle": "BOLD",
+  "labelText": "اسم افراد",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 54,
-  "mobileLeftColumn": 35,
-  "mobileRightColumn": 55,
-  "mobileTopRow": 47,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "optionLabel": "label",
-  "optionValue": "value",
-  "originalBottomRow": 51,
-  "originalTopRow": 47,
+  "onFilterUpdate": "{{\n            Select_Users1.run();\n            \n          }}",
+  "optionLabel": "name",
+  "optionValue": "userId",
   "parentColumnSpace": 6.4921875,
-  "parentId": "53xbiz6lkd",
+  "parentId": "2sepyjlfxd",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 49,
-  "serverSideFiltering": false,
-  "sourceData": "{{\nGetUsers.data.map( (obj) =>{ return  {'label': obj.name, 'value': obj.userId } })\n}}",
-  "topRow": 47,
+  "rightColumn": 40,
+  "serverSideFiltering": true,
+  "sourceData": "{{Select_Users1.data}}",
+  "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "gxgzr866h6",
-  "widgetName": "SltUser"
+  "widgetId": "dw9h608f0g",
+  "widgetName": "Select1"
 }

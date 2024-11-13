@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_0e1e29c8-f744-4946-a271-6fd74e1f1d5e",
-  "id": "Morabbi_InsertPrivateMessage",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_4e8583e5-1083-407e-a02b-0e9727ba3ebd",
+  "id": "Morabbi_saveDtatas",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO MessagePrivate (source, dest, message)\n  VALUES ({{appsmith.store.userId}}, {{SltUser.selectedOptionValue}}, {{InpMessagePrivate.text}});",
+      "body": "INSERT INTO MessagePrivate(dest, message,source)\n  VALUES (\n\t\t1408,\n\t\t{{Input2.text}},\n\t\t{{Select_Users1.data=true}}\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "InsertPrivateMessage",
+    "name": "saveDtatas",
     "pageId": "Morabbi",
     "userSetOnLoad": false
   }

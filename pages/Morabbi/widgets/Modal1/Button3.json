@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 58,
+  "bottomRow": 22,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonStyle": "PRIMARY",
-  "buttonVariant": "SECONDARY",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -13,6 +13,11 @@
     },
     {
       "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -24,28 +29,28 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "p8a7nsqlis",
+  "key": "v04f32ypqn",
   "leftColumn": 47,
   "minWidth": 120,
   "mobileBottomRow": 22,
-  "mobileLeftColumn": 31,
-  "mobileRightColumn": 47,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(MdlPrivateMessage.name);}}",
-  "originalBottomRow": 58,
-  "originalTopRow": 54,
-  "parentId": "53xbiz6lkd",
+  "onClick": "{{\nsaveDtatas.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
+  "originalBottomRow": 23,
+  "originalTopRow": 19,
+  "parentId": "2sepyjlfxd",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 63,
-  "text": "بستن",
-  "topRow": 54,
+  "text": "ارسال پیام",
+  "topRow": 18,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "44vpizjvhi",
-  "widgetName": "BtnClosePM"
+  "widgetId": "crloegel3a",
+  "widgetName": "Button3"
 }

@@ -3,6 +3,6 @@ INSERT INTO SelectedStudent (testNumber, studyCount, userId, insertDate, userDat
 		{{InpTest.text}},
 		{{InpCourse.text}},
 		{{appsmith.store.userId}},
-		{{Select1Copy.selectedOptionValue}},
-		NOW()
+		NOW(),
+		{{Select1Copy.selectedOptionValue}}
 	);

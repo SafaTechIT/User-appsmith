@@ -55,7 +55,7 @@
           "widgetId": "75e8f6rvur"
         }
       },
-      "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"\");\n\tInpCourse.setValue(\"\");\n\tInpResponsibility.setValue(\"\");\n\tInpSport.setValue(\"\");\n\tInpStudy.setValue(\"\");\n});\nif(\n\tGetUesrName.data[0].selected\n)\n{\n\tInsertSelectedStudent.run()\n}\n}}",
+      "onClick": "{{\nInsertPersonal.run();\nInsertFamily.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpFamily.setValue(\"0\");\n\tInpCourse.setValue(\"0\");\n\tInpResponsibility.setValue(\"0\");\n\tInpSport.setValue(\"0\");\n\tInpStudy.setValue(\"0\");\n});\nGetUesrName.data[0].selected?\nInsertSelectedStudent.run().then(()=>{InpTest.setValue(\"0\")}):showAlert('اطلاعات ذخیره نشد','error')\n}}",
       "placement": "CENTER",
       "widgetId": ""
     },
