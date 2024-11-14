@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wx3rpc53tp",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onFilterUpdate": "{{\n            Select_Users1.run();\n            \n          }}",
+  "optionLabel": "name",
+  "optionValue": "userId",
+  "parentColumnSpace": 6.4921875,
+  "parentId": "2byw8sf4tg",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 37,
+  "serverSideFiltering": true,
+  "sourceData": "{{Select_Users1.data}}",
+  "topRow": 44,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "t8n7632hvs",
+  "widgetName": "Select1Copy"
+}

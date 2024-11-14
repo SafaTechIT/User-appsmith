@@ -14,31 +14,27 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconAlign": "right",
-  "iconName": "send-message",
+  "fontFamily": "Ubuntu",
+  "iconAlign": "left",
+  "iconName": "follower",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "d58t02nyvc",
-  "leftColumn": 15,
+  "key": "68ekjikfti",
+  "leftColumn": 36,
   "minWidth": 120,
   "mobileBottomRow": 20,
-  "mobileLeftColumn": 25,
-  "mobileRightColumn": 41,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 44,
   "mobileTopRow": 16,
   "needsErrorInfo": false,
-  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
+  "onClick": "{{showModal(Modal2.name);}}",
   "originalBottomRow": 20,
   "originalTopRow": 16,
   "parentColumnSpace": 6.53125,
@@ -49,11 +45,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 31,
-  "text": "ارسال",
+  "rightColumn": 62,
+  "text": "پیام رسان شخصی",
   "topRow": 16,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ungu1t1tp3",
-  "widgetName": "Button1"
+  "widgetId": "s5mt0l52ny",
+  "widgetName": "Button4"
 }
