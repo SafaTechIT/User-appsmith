@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO MessagePublic (dest, message)\n  VALUES (\n\t\t1408,\n\t\t{{Input1.text}}\n\t);",
+      "body": "INSERT INTO MessagePublic (dest, message)\n  VALUES (\n\t\t1408,\n\t\t{{InpPublicMessage.text}}\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

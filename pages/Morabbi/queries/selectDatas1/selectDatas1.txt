@@ -1,0 +1,2 @@
+SELECT source as 'نام',message as 'پیام'
+FROM MessagePrivate  ;

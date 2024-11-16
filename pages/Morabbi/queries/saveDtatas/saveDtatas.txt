@@ -1,6 +1,6 @@
 INSERT INTO MessagePrivate(dest, message,source)
   VALUES (
 		1408,
-		{{Input2.text}},
+		{{Inp.text}},
 		{{Select_Users1.data=true}}
 	);

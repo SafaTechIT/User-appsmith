@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO MessagePrivate(dest, message,source)\n  VALUES (\n\t\t1408,\n\t\t{{Input2.text}},\n\t\t{{Select_Users1.data=true}}\n\t);",
+      "body": "INSERT INTO MessagePrivate(dest, message,source)\n  VALUES (\n\t\t1408,\n\t\t{{Inp.text}},\n\t\t{{Select_Users1.data=true}}\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

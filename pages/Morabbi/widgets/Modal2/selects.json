@@ -51,6 +51,8 @@
   "onFilterUpdate": "{{\n            Select_Users1.run();\n            \n          }}",
   "optionLabel": "name",
   "optionValue": "userId",
+  "originalBottomRow": 50,
+  "originalTopRow": 46,
   "parentColumnSpace": 6.4921875,
   "parentId": "2byw8sf4tg",
   "parentRowSpace": 10,
@@ -64,5 +66,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "t8n7632hvs",
-  "widgetName": "Select1Copy"
+  "widgetName": "selects"
 }

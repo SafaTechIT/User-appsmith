@@ -37,7 +37,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{\nsaveDtatas.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
+  "onClick": "{{\nsaveDtatas.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInpPublicMessage.setValue(\"\");\n});\n}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentId": "2sepyjlfxd",

@@ -16,6 +16,8 @@
   "mobileTopRow": 38,
   "needsErrorInfo": false,
   "orientation": "horizontal",
+  "originalBottomRow": 44,
+  "originalTopRow": 40,
   "parentColumnSpace": 6.4921875,
   "parentId": "2byw8sf4tg",
   "parentRowSpace": 10,

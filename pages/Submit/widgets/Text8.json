@@ -44,7 +44,7 @@
   "rightColumn": 62,
   "rtl": true,
   "shouldTruncate": false,
-  "text": "{{GetPrivateMessage.data[0].message}}",
+  "text": "{{get.data[0]}}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
   "topRow": 86,
