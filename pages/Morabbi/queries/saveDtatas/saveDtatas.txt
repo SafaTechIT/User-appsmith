@@ -1,6 +1,2 @@
-INSERT INTO MessagePrivate(dest, message,source)
-  VALUES (
-		1408,
-		{{Inp.text}},
-		{{Select_Users1.data=true}}
-	);
+
+INSERT INTO MessagePrivate(source,dest,message)VALUES(1408,{{}},{{Inp.text}});
