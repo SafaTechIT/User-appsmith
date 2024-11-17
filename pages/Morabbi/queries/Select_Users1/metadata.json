@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  Users\nWHERE\n  name LIKE '%{{Select1.filterText}}%'",
+      "body": "SELECT * FROM Users ",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,11 +22,7 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "Select_Users1",
     "pageId": "Morabbi",

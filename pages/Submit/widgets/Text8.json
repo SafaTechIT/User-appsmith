@@ -44,7 +44,7 @@
   "rightColumn": 62,
   "rtl": true,
   "shouldTruncate": false,
-  "text": "{{get.data[0].message}}",
+  "text": "{{\nget.data[0].message\n}}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
   "topRow": 85,

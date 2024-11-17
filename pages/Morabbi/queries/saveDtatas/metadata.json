@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "\nINSERT INTO MessagePrivate(source,dest,message)VALUES(1408,{{}},{{Inp.text}});",
+      "body": "\nINSERT INTO MessagePrivate(source,dest,message)VALUES(1408,{{selects.selectedOptionValue}},{{Inp.text}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

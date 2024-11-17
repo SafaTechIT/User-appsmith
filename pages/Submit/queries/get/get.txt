@@ -1,1 +1,4 @@
-SELECT message FROM MessagePrivate LIMIT 1;
+SELECT id, message
+FROM MessagePrivate
+ORDER BY id
+DESC;

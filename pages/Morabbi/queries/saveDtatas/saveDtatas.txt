@@ -1,2 +1,2 @@
 
-INSERT INTO MessagePrivate(source,dest,message)VALUES(1408,{{}},{{Inp.text}});
+INSERT INTO MessagePrivate(source,dest,message)VALUES(1408,{{selects.selectedOptionValue}},{{Inp.text}});
