@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_47e7a9b0-2dc4-466a-aaed-a2c41f4622af",
-  "id": "Morabbi_selectDatas1",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_61a98df2-59ee-4af9-9fc1-f20727ee6a4f",
+  "id": "Morabbi_deleteRecordMessagePrivate",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,dest as 'نام',message as 'پیام'\nFROM MessagePrivate  ;",
+      "body": "DELETE FROM MessagePrivate\n  WHERE id = {{this.params.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,9 +22,13 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "selectDatas1",
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
+    "executeOnLoad": false,
+    "name": "deleteRecordMessagePrivate",
     "pageId": "Morabbi",
     "userSetOnLoad": false
   }

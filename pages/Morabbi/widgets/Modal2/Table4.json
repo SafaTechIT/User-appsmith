@@ -32,11 +32,15 @@
   },
   "columnOrder": [
     "xn__mgb4dri0l",
-    "xn__mgb4db"
+    "xn__mgb4db",
+    "id",
+    "customColumn1"
   ],
-  "columnUpdatedAt": 1731856744951,
+  "columnUpdatedAt": 1732064172015,
   "columnWidthMap": {
-    "xn__mgb4dri0l": 285
+    "customColumn1": 60,
+    "xn__mgb4db": 87,
+    "xn__mgb4dri0l": 320
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -60,18 +64,37 @@
       "key": "tableData"
     },
     {
+      "key": "primaryColumns.xn__mgb4dri0l.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
       "key": "primaryColumns.xn__mgb4db.computedValue"
     },
     {
-      "key": "primaryColumns.xn__mgb4dri0l.computedValue"
+      "key": "primaryColumns.id.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -93,11 +116,84 @@
   "mobileTopRow": 7,
   "needsErrorInfo": false,
   "originalBottomRow": 38,
-  "originalTopRow": 9,
+  "originalTopRow": 6,
   "parentColumnSpace": 6.4921875,
   "parentId": "2byw8sf4tg",
   "parentRowSpace": 10,
   "primaryColumns": {
+    "customColumn1": {
+      "alias": "-",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "remove",
+      "id": "customColumn1",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "-",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{deleteRecordMessagePrivate.run({\n  \"id\": currentRow.id\n}).then(() => {\n selectDatas1.run();\n});}}",
+      "originalId": "customColumn1",
+      "sticky": "right",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "id",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "xn__mgb4db": {
       "alias": "نام",
       "allowCellWrapping": false,
@@ -110,9 +206,9 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "LEFT",
       "id": "xn__mgb4db",
-      "index": 0,
+      "index": 1,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -124,7 +220,7 @@
       "label": "نام",
       "notation": "standard",
       "originalId": "نام",
-      "sticky": "right",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -169,11 +265,11 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 62,
   "searchKey": "",
   "tableData": "{{selectDatas1.data}}",
   "textSize": "0.875rem",
-  "topRow": 9,
+  "topRow": 6,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
