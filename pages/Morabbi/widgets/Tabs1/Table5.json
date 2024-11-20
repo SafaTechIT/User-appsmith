@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 38,
+  "bottomRow": 26,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -31,12 +31,15 @@
     }
   },
   "columnOrder": [
+    "customColumn1",
     "xn__mgb4dri0l",
-    "xn__mgb4db"
+    "id"
   ],
-  "columnUpdatedAt": 1731856744951,
+  "columnUpdatedAt": 1732063354905,
   "columnWidthMap": {
-    "xn__mgb4dri0l": 285
+    "customColumn1": 60,
+    "xn__mgb4dri0l": 268,
+    "xn__mgbuh2em": 65
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -60,18 +63,34 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.xn__mgb4db.computedValue"
+      "key": "primaryColumns.xn__mgb4dri0l.computedValue"
     },
     {
-      "key": "primaryColumns.xn__mgb4dri0l.computedValue"
+      "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -83,36 +102,73 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "uah9gswesk",
+  "key": "1uklcjz7oi",
   "label": "Data",
-  "leftColumn": 0,
+  "leftColumn": 3,
   "minWidth": 450,
-  "mobileBottomRow": 35,
-  "mobileLeftColumn": 15,
-  "mobileRightColumn": 49,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 38,
-  "originalTopRow": 9,
-  "parentColumnSpace": 6.4921875,
-  "parentId": "2byw8sf4tg",
+  "parentColumnSpace": 6.53125,
+  "parentId": "bpzxzfxxjn",
   "parentRowSpace": 10,
   "primaryColumns": {
-    "xn__mgb4db": {
-      "alias": "نام",
+    "customColumn1": {
+      "alias": "-",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "remove",
+      "id": "customColumn1",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "-",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{DeleteRecord.run({\n  \"id\": currentRow.id\n}).then(() => {\n selectDatamessagepublic.run();\n});}}",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"نام\"]))}}",
+      "computedValue": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "RIGHT",
-      "id": "xn__mgb4db",
-      "index": 0,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 1,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -121,10 +177,10 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "نام",
+      "label": "id",
       "notation": "standard",
-      "originalId": "نام",
-      "sticky": "right",
+      "originalId": "id",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -138,13 +194,13 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"پیام\"]))}}",
+      "computedValue": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"پیام\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "LEFT",
+      "horizontalAlignment": "RIGHT",
       "id": "xn__mgb4dri0l",
       "index": 1,
       "isCellEditable": false,
@@ -169,15 +225,15 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 61,
   "searchKey": "",
-  "tableData": "{{selectDatas1.data}}",
+  "tableData": "{{selectDatamessagepublic.data}}",
   "textSize": "0.875rem",
-  "topRow": 9,
+  "topRow": 0,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "0xx4c8959o",
-  "widgetName": "Table4"
+  "widgetId": "vq8wqn4n02",
+  "widgetName": "Table5"
 }

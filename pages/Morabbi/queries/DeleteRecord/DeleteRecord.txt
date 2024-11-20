@@ -1,0 +1,2 @@
+DELETE FROM MessagePublic
+  WHERE id = {{this.params.id}};

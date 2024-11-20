@@ -1,0 +1,2 @@
+SELECT id ,message as 'پیام'
+FROM MessagePublic  ;

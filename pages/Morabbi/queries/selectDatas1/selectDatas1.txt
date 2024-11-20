@@ -1,2 +1,2 @@
-SELECT source as 'نام',message as 'پیام'
+SELECT dest as 'نام',message as 'پیام'
 FROM MessagePrivate  ;
