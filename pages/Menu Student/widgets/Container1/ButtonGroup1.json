@@ -78,7 +78,7 @@
       "iconName": "panel-table",
       "id": "groupButton3",
       "index": 1,
-      "isDisabled": false,
+      "isDisabled": true,
       "isVisible": true,
       "label": "فرهنگی",
       "menuItems": {
