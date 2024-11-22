@@ -36,11 +36,12 @@
     "id",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1732064172015,
+  "columnUpdatedAt": 1732116086499,
   "columnWidthMap": {
     "customColumn1": 60,
-    "xn__mgb4db": 87,
-    "xn__mgb4dri0l": 320
+    "id": 60,
+    "xn__mgb4db": 62,
+    "xn__mgb4dri0l": 287
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -153,7 +154,7 @@
       "notation": "standard",
       "onClick": "{{deleteRecordMessagePrivate.run({\n  \"id\": currentRow.id\n}).then(() => {\n selectDatas1.run();\n});}}",
       "originalId": "customColumn1",
-      "sticky": "right",
+      "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

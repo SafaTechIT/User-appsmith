@@ -49,6 +49,10 @@
     {
       "id": "KomakMorabbi",
       "isDefault": false
+    },
+    {
+      "id": "messageMorabi",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -1,50 +1,56 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 14,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
+      "key": "fontFamily"
+    },
+    {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "YekanBakh",
-  "fontSize": "1.875rem",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "skg0b5l1xf",
-  "leftColumn": 2,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 85,
+  "mobileBottomRow": 89,
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
-  "mobileTopRow": 81,
+  "mobileTopRow": 85,
   "needsErrorInfo": false,
-  "originalBottomRow": 84,
-  "originalTopRow": 79,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
-  "parentId": "0",
+  "parentId": "9st5rrofij",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "rtl": true,
   "shouldTruncate": false,
-  "text": "پیام مربی",
+  "text": "{{\nget.data[0].message\n}}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 79,
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "w1g8t8qiom",
-  "widgetName": "Text7"
+  "widgetId": "e8xd5j9pea",
+  "widgetName": "Text8"
 }

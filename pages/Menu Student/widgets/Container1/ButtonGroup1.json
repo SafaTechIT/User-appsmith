@@ -18,11 +18,44 @@
     },
     {
       "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton0j64cydgdw.buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton0j64cydgdw.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton0j64cydgdw.onClick"
+    }
+  ],
   "groupButtons": {
+    "groupButton0j64cydgdw": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton0j64cydgdw",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "پیام مربی",
+      "menuItems": {},
+      "onClick": "{{navigateTo('messageMorabi', {}, 'SAME_WINDOW').then(() => {})}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "42ngtpihww"
+    },
     "groupButton2": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
@@ -34,6 +67,7 @@
       "isVisible": true,
       "label": "ثبت اطلاعات",
       "menuItems": {},
+      "onClick": "{{navigateTo('Submit', {}, 'SAME_WINDOW').then(() => {})}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -46,7 +80,7 @@
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
-      "label": "نتایج",
+      "label": "فرهنگی",
       "menuItems": {
         "menuItem3": {
           "backgroundColor": "#DD4B34",

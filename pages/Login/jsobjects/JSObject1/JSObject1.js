@@ -9,7 +9,7 @@ export default {
 					switch(key){
            	case 4:
 						case 3:
-							navigateTo('Submit', {}, 'SAME_WINDOW').then(() => {})
+							navigateTo('Menu Student', {}, 'SAME_WINDOW').then(() => {})
            		break;
 						case 1:
 							navigateTo('Morabbi', {}, 'SAME_WINDOW').then(() => {})

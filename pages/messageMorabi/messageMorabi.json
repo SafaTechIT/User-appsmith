@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "66d763beedc53936732abcef_3a1f30ad-df3e-4bca-9a9e-024af638790f",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_cf246469-ad2e-4709-a1ed-7b85b75f7106",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 780,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 480,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 46,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Submit",
-    "slug": "submit"
+    "name": "messageMorabi",
+    "slug": "messagemorabi"
   }
 }

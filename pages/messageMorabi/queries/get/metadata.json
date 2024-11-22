@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_ce0a7293-66cc-433a-844c-c345affed7e1",
-  "id": "Submit_get",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_fceda353-45bf-4565-a183-d993d410c773",
+  "id": "messageMorabi_get",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -25,7 +25,7 @@
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "get",
-    "pageId": "Submit",
+    "pageId": "messageMorabi",
     "userSetOnLoad": false
   }
 }
