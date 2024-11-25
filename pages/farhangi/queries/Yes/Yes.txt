@@ -1,0 +1,2 @@
+INSERT INTO Sound (userID,IdFile,`Check`)values(
+{{appsmith.store.userId}},1,1);

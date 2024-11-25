@@ -68,6 +68,9 @@
       "key": "primaryColumns.xn__mgb4db.computedValue"
     },
     {
+      "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
       "key": "primaryColumns.customColumn1.buttonColor"
     },
     {
@@ -80,6 +83,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicTriggerPathList": [
@@ -118,9 +124,10 @@
       "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
       "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
       "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonLabel": "گوش دادم",
       "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "iconButton",
-      "computedValue": "",
+      "columnType": "button",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
       "currencyCode": "USD",
       "customAlias": "",
       "decimals": 0,
@@ -140,7 +147,7 @@
       "label": "ثبت",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{Yes.data.run()}}",
+      "onClick": "{{Yes.run()}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -222,7 +229,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "searchKey": "",
-  "tableData": "{{Sound.data}}",
+  "tableData": "{{Sound.data;}}",
   "textSize": "0.875rem",
   "topRow": 0,
   "totalRecordsCount": 0,

@@ -1,0 +1,2 @@
+INSERT INTO Books (userID,namesBook)values(
+{{appsmith.store.userId}},{{Input1.text}});
