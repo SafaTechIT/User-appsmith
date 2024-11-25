@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_415a1950-f653-40c3-b7cf-7f18782b8ec6",
-  "id": "farhangi_Yes",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_d8137ded-5642-4da1-b7c8-745c1dec7292",
+  "id": "farhangi_No",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE Sound\nSET `Check` = 1\nWHERE userID = {{appsmith.store.userId}} AND IdFile = 1;",
+      "body": "UPDATE Sound\nSET `Check` = 0\nWHERE userID = {{appsmith.store.userId}} AND IdFile = 1;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Yes",
+    "name": "No",
     "pageId": "farhangi",
     "userSetOnLoad": false
   }

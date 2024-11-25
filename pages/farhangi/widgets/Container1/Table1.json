@@ -7,6 +7,7 @@
   "bottomRow": 32,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
+  "cellBackground": "{{}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -31,14 +32,16 @@
     }
   },
   "columnOrder": [
+    "customColumn2",
     "customColumn1",
     "xn__mgb4db",
     "xn__mgbuh2em"
   ],
-  "columnUpdatedAt": 1732282633968,
+  "columnUpdatedAt": 1732555199216,
   "columnWidthMap": {
-    "customColumn1": 99,
-    "xn__mgb4db": 249.99999999999997
+    "customColumn1": 90,
+    "customColumn2": 97,
+    "xn__mgb4db": 159.99999999999997
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -78,19 +81,40 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn2.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn2.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn2.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn2.boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
     {
+      "key": "tableData"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
       "key": "primaryColumns.customColumn1.onClick"
     },
     {
-      "key": "tableData"
+      "key": "primaryColumns.customColumn2.onClick"
     }
   ],
   "dynamicTriggerPathList": [
     {
       "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn2.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -147,8 +171,48 @@
       "label": "ثبت",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{Yes.run()}}",
+      "onClick": "{{Yes.run().then(() => {showAlert('اطلاعات با موفقیت ذخیره شد', 'success');});\n}}",
       "originalId": "customColumn1",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn2": {
+      "alias": "2ثبت",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonLabel": "گوش نکردم",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "{{}}",
+      "columnType": "button",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn2",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "2ثبت",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{No.run().then(() => {showAlert('اطلاعات با موفقیت ذخیره شد', 'success');});\n}}",
+      "originalId": "customColumn2",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

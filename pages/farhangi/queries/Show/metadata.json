@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_415a1950-f653-40c3-b7cf-7f18782b8ec6",
-  "id": "farhangi_Yes",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_ac380c98-befa-401f-82a4-6ca38f411b91",
+  "id": "farhangi_Show",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE Sound\nSET `Check` = 1\nWHERE userID = {{appsmith.store.userId}} AND IdFile = 1;",
+      "body": "SELECT namesBook FROM Books LIMIT 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,13 +22,9 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "executeOnLoad": false,
-    "name": "Yes",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "name": "Show",
     "pageId": "farhangi",
     "userSetOnLoad": false
   }
