@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 36,
+  "bottomRow": 37,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "5jftkq69gi",
-  "leftColumn": 7,
+  "leftColumn": 19,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,11 +41,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 51,
+  "rightColumn": 46,
   "shouldTruncate": false,
-  "text": "کتاب درحال مطالعه شما :{{Show.data[0].namesBook}}",
+  "text": "کتاب درحال مطالعه شما :{{Show.data[0].namesBook;\n}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#15803d",
   "topRow": 32,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

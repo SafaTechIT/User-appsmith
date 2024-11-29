@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 17,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -29,6 +29,9 @@
     },
     {
       "key": "groupButtons.groupButton0j64cydgdw.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -37,6 +40,9 @@
     },
     {
       "key": "groupButtons.groupButton0j64cydgdw.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
     }
   ],
   "groupButtons": {
@@ -44,7 +50,7 @@
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
       "id": "groupButton0j64cydgdw",
-      "index": 2,
+      "index": 1,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
@@ -77,8 +83,8 @@
       "iconAlign": "right",
       "iconName": "panel-table",
       "id": "groupButton3",
-      "index": 1,
-      "isDisabled": true,
+      "index": 2,
+      "isDisabled": false,
       "isVisible": true,
       "label": "فرهنگی",
       "menuItems": {
@@ -97,6 +103,7 @@
           "widgetId": ""
         }
       },
+      "onClick": "{{navigateTo('farhangi', {}, 'SAME_WINDOW').then(() => {})}}",
       "placement": "CENTER",
       "widgetId": ""
     }
@@ -113,15 +120,15 @@
   "mobileTopRow": 2,
   "needsErrorInfo": false,
   "orientation": "horizontal",
-  "originalBottomRow": 19,
-  "originalTopRow": 13,
+  "originalBottomRow": 18,
+  "originalTopRow": 12,
   "parentColumnSpace": 2.78857421875,
   "parentId": "wpn1ifjk6f",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
-  "topRow": 12,
+  "rightColumn": 62,
+  "topRow": 9,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "f799jxmn8v",

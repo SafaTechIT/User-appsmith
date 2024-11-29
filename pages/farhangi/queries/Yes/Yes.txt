@@ -1,3 +1,0 @@
-UPDATE Sound
-SET `Check` = 1
-WHERE userID = {{appsmith.store.userId}} AND IdFile = 1;

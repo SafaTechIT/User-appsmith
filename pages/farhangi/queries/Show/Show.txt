@@ -1,1 +1,1 @@
-SELECT namesBook FROM Books LIMIT 10;
+SELECT namesBook FROM Books WHERE userID = {{appsmith.store.userId}};

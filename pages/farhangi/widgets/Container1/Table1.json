@@ -7,7 +7,7 @@
   "bottomRow": 32,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
-  "cellBackground": "{{}}",
+  "cellBackground": "#d4d4d8",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -34,10 +34,10 @@
   "columnOrder": [
     "customColumn2",
     "customColumn1",
-    "xn__mgb4db",
-    "xn__mgbuh2em"
+    "number",
+    "name"
   ],
-  "columnUpdatedAt": 1732555199216,
+  "columnUpdatedAt": 1732888282610,
   "columnWidthMap": {
     "customColumn1": 90,
     "customColumn2": 97,
@@ -65,12 +65,6 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.xn__mgbuh2em.computedValue"
-    },
-    {
-      "key": "primaryColumns.xn__mgb4db.computedValue"
-    },
-    {
       "key": "primaryColumns.customColumn1.computedValue"
     },
     {
@@ -83,9 +77,6 @@
       "key": "primaryColumns.customColumn1.boxShadow"
     },
     {
-      "key": "primaryColumns.customColumn2.cellBackground"
-    },
-    {
       "key": "primaryColumns.customColumn2.buttonColor"
     },
     {
@@ -93,6 +84,12 @@
     },
     {
       "key": "primaryColumns.customColumn2.boxShadow"
+    },
+    {
+      "key": "primaryColumns.number.computedValue"
+    },
+    {
+      "key": "primaryColumns.name.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -100,13 +97,10 @@
       "key": "tableData"
     },
     {
-      "key": "cellBackground"
+      "key": "primaryColumns.customColumn2.onClick"
     },
     {
       "key": "primaryColumns.customColumn1.onClick"
-    },
-    {
-      "key": "primaryColumns.customColumn2.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -150,6 +144,7 @@
       "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonLabel": "گوش دادم",
       "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "#d4d4d8",
       "columnType": "button",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
       "currencyCode": "USD",
@@ -171,9 +166,10 @@
       "label": "ثبت",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{Yes.run().then(() => {showAlert('اطلاعات با موفقیت ذخیره شد', 'success');});\n}}",
+      "onClick": "{{Save.run().then(() => {\n  storeValue('IdFile', Sound.data[0].number);\n\tshowAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n});}}",
       "originalId": "customColumn1",
       "sticky": "",
+      "textColor": "#7f1d1d",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -189,7 +185,8 @@
       "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonLabel": "گوش نکردم",
       "buttonStyle": "rgb(3, 179, 101)",
-      "cellBackground": "{{}}",
+      "buttonVariant": "PRIMARY",
+      "cellBackground": "#d4d4d8",
       "columnType": "button",
       "computedValue": "",
       "currencyCode": "USD",
@@ -211,29 +208,30 @@
       "label": "2ثبت",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{No.run().then(() => {showAlert('اطلاعات با موفقیت ذخیره شد', 'success');});\n}}",
+      "onClick": "{{Delete.run().then(() => {showAlert('اطلاعات با موفقیت ذخیره شد', 'success');});\n}}",
       "originalId": "customColumn2",
       "sticky": "",
+      "textColor": "#7f1d1d",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "xn__mgb4db": {
-      "alias": "نام",
+    "name": {
+      "alias": "name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "#d4d4d8",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"نام\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "xn__mgb4db",
+      "id": "name",
       "index": 1,
       "isCellEditable": false,
       "isCellVisible": true,
@@ -243,31 +241,31 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "نام",
+      "label": "نام فایل",
       "notation": "standard",
-      "originalId": "نام",
+      "originalId": "name",
       "sticky": "",
-      "textColor": "",
+      "textColor": "#7f1d1d",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "xn__mgbuh2em": {
-      "alias": "شماره",
+    "number": {
+      "alias": "number",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "#d4d4d8",
       "columnType": "number",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"شماره\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"number\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "xn__mgbuh2em",
+      "id": "number",
       "index": 0,
       "isCellEditable": false,
       "isCellVisible": true,
@@ -276,12 +274,12 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "شماره",
       "notation": "standard",
-      "originalId": "شماره",
+      "originalId": "number",
       "sticky": "",
-      "textColor": "",
+      "textColor": "#7f1d1d",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -294,6 +292,7 @@
   "rightColumn": 63,
   "searchKey": "",
   "tableData": "{{Sound.data;}}",
+  "textColor": "#7f1d1d",
   "textSize": "0.875rem",
   "topRow": 0,
   "totalRecordsCount": 0,

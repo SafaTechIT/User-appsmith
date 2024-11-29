@@ -31,12 +31,12 @@
     }
   },
   "columnOrder": [
+    "customColumn1",
     "xn__mgb4dri0l",
     "xn__mgb4db",
-    "id",
-    "customColumn1"
+    "id"
   ],
-  "columnUpdatedAt": 1732116086499,
+  "columnUpdatedAt": 1732886619363,
   "columnWidthMap": {
     "customColumn1": 60,
     "id": 60,

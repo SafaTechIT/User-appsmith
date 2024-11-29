@@ -1,1 +1,1 @@
-select id AS 'شماره', IdFile AS 'نام' from Sound;
+select id AS number, IdFile AS name from Sound;

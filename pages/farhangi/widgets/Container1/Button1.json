@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 48,
+  "bottomRow": 49,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -49,7 +49,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 38,
   "text": "ارسال",
-  "topRow": 44,
+  "topRow": 45,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "vrv0klbrgq",

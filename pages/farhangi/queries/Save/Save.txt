@@ -1,0 +1,6 @@
+INSERT INTO InsertSound(usr,IDFile,`Check`)
+VALUES(
+{{appsmith.store.userId}},
+	{{appsmith.store.IdFile}},
+	1
+)

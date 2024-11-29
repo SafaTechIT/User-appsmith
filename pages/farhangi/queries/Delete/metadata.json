@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_415a1950-f653-40c3-b7cf-7f18782b8ec6",
-  "id": "farhangi_Yes",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_c83145a6-f3b4-411f-8917-ea752bfebe3c",
+  "id": "farhangi_Delete",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE Sound\nSET `Check` = 1\nWHERE userID = {{appsmith.store.userId}} AND IdFile = 1;",
+      "body": "DELETE FROM InsertSound WHERE usr = {{appsmith.store.userId}} AND IDFile = {{appsmith.store.IdFile}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Yes",
+    "name": "Delete",
     "pageId": "farhangi",
     "userSetOnLoad": false
   }
