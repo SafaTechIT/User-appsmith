@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f75aa0971a32bcdd71b43_415a1950-f653-40c3-b7cf-7f18782b8ec6",
-  "id": "farhangi_Save",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_4d2bcfe5-3a94-4e30-8a61-3a6178df3f04",
+  "id": "farhangi_ShowInsert",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO InsertSound(usr,IDFile,`Check`)\nVALUES(\n{{appsmith.store.userId}},\n\t{{appsmith.store.IdFile}},\n\t1\n);",
+      "body": "SELECT IDFile FROM InsertSound WHERE usr = {{appsmith.store.userId}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "name": "Save",
+    "executeOnLoad": true,
+    "name": "ShowInsert",
     "pageId": "farhangi",
     "userSetOnLoad": false
   }

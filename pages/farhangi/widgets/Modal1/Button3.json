@@ -1,10 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 65,
+  "bottomRow": 38,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -14,45 +15,35 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconAlign": "right",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "dajw4fmwna",
-  "leftColumn": 22,
+  "key": "xy1iy6qjc9",
+  "leftColumn": 46,
   "minWidth": 120,
-  "mobileBottomRow": 48,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 38,
-  "mobileTopRow": 44,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
-  "originalBottomRow": 65,
-  "originalTopRow": 61,
-  "parentColumnSpace": 5.248046875,
-  "parentId": "dqz1wcfygo",
-  "parentRowSpace": 10,
+  "onClick": "{{closeModal(Modal1.name);}}",
+  "parentId": "0jbcrcrj9q",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 38,
-  "text": "ارسال",
-  "topRow": 61,
+  "rightColumn": 62,
+  "text": "بستن",
+  "topRow": 34,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "vrv0klbrgq",
-  "widgetName": "Button1"
+  "widgetId": "u8x4tf476o",
+  "widgetName": "Button3"
 }

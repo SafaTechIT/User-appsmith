@@ -24,6 +24,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
     }
   ],
   "dynamicTriggerPathList": [
