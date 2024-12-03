@@ -85,7 +85,7 @@
       "id": "groupButton3",
       "index": 2,
       "isDisabled": false,
-      "isVisible": false,
+      "isVisible": true,
       "label": "فرهنگی",
       "menuItems": {
         "menuItem3": {
