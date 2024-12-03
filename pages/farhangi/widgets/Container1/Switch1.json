@@ -2,45 +2,36 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignWidget": "RIGHT",
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 45,
-  "defaultCheckedState": true,
+  "boxShadow": "none",
+  "defaultSwitchState": false,
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onCheckChange"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
-      "key": "onCheckChange"
+      "key": "onChange"
     }
   ],
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
   "isVisible": true,
-  "key": "vyjrzp2wkl",
+  "key": "pqyiazfebp",
   "label": "خواندم",
   "labelPosition": "Right",
-  "leftColumn": 9,
+  "leftColumn": 7,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "minWidth": 450,
   "mobileBottomRow": 45,
   "mobileLeftColumn": 9,
   "mobileRightColumn": 21,
   "mobileTopRow": 41,
   "needsErrorInfo": false,
-  "onCheckChange": "{{Fadak.run()}}",
+  "onChange": "",
   "originalBottomRow": 45,
   "originalTopRow": 41,
   "parentColumnSpace": 6.53125,
@@ -50,8 +41,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "topRow": 41,
-  "type": "CHECKBOX_WIDGET",
+  "type": "SWITCH_WIDGET",
   "version": 1,
-  "widgetId": "ws178se1lp",
-  "widgetName": "Checkbox1"
+  "widgetId": "xgq4rpp9ys",
+  "widgetName": "Switch1"
 }

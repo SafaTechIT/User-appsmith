@@ -1,1 +1,1 @@
-DELETE FROM InsertSound WHERE usr = {{appsmith.store.userId}} AND IDFile = {{appsmith.store.IdFile}};
+DELETE FROM InsertSound WHERE usr = {{appsmith.store.userId}} AND IDFile = {{this.params.id}};

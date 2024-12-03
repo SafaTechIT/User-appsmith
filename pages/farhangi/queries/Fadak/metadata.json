@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO Fadak (Usr,Cehcking)\nVALUES (\n{{appsmith.store.userId}},\n1)",
+      "body": "INSERT INTO Fadak (Usr,Cehcking)\nVALUES (\n{{appsmith.store.userId}},\n{{Switch1.isSwitchedOn}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

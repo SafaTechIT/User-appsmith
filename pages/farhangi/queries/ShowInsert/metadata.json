@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT IDFile FROM InsertSound WHERE usr = {{appsmith.store.userId}};",
+      "body": "SELECT Sound.IdFile AS `name`, InsertSound.IDFile \nFROM InsertSound\nJOIN Sound ON Sound.id = InsertSound.IDFile \nWHERE usr = 27127 \nORDER BY Sound.id;\n\n\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,11 +22,7 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "ShowInsert",
     "pageId": "farhangi",

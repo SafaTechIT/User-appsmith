@@ -1,4 +1,4 @@
 INSERT INTO Fadak (Usr,Cehcking)
 VALUES (
 {{appsmith.store.userId}},
-1)
+{{Switch1.isSwitchedOn}});

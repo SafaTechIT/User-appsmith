@@ -37,7 +37,7 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 44,
   "needsErrorInfo": false,
-  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\n}}",
+  "onClick": "{{\nsaveData.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tInput1.setValue(\"\");\n});\nFadak.run().then(() => {\n  showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n\tSwitch1.setValue(\"0\");\n});\n}}",
   "originalBottomRow": 65,
   "originalTopRow": 61,
   "parentColumnSpace": 5.248046875,

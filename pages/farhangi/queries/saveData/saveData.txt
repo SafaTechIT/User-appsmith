@@ -1,3 +1,3 @@
 UPDATE Books
-SET namesBook = {{Input1.text}}
+SET namesBook = {{Input1.text}} 
 WHERE userID = {{appsmith.store.userId}}

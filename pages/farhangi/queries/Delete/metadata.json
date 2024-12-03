@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM InsertSound WHERE usr = {{appsmith.store.userId}} AND IDFile = {{appsmith.store.IdFile}};",
+      "body": "DELETE FROM InsertSound WHERE usr = {{appsmith.store.userId}} AND IDFile = {{this.params.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO InsertSound(usr,IDFile,`Check`)\nVALUES(\n{{appsmith.store.userId}},\n\t{{appsmith.store.IdFile}},\n\t1\n);",
+      "body": "INSERT INTO InsertSound(usr,IDFile,`Check`)\nVALUES(\n{{appsmith.store.userId}},\n\t{{this.params.id}},\n\t1\n);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
