@@ -1,7 +1,7 @@
 SELECT Sound.IdFile AS `name`, InsertSound.IDFile 
 FROM InsertSound
 JOIN Sound ON Sound.id = InsertSound.IDFile 
-WHERE usr = 27127 
+WHERE usr = {{appsmith.store.userId}} 
 ORDER BY Sound.id;
 
 

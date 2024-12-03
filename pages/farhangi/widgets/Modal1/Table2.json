@@ -64,7 +64,11 @@
       "key": "primaryColumns.name.computedValue"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
@@ -113,7 +117,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "IDFile",
+      "label": "شماره فایل",
       "notation": "standard",
       "originalId": "IDFile",
       "sticky": "",
@@ -147,7 +151,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "name",
+      "label": "نام فایل",
       "notation": "standard",
       "originalId": "name",
       "sticky": "",
