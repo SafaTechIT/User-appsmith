@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 53,
+  "bottomRow": 54,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "5jftkq69gi",
-  "leftColumn": 5,
+  "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -33,7 +33,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "originalBottomRow": 53,
+  "originalBottomRow": 54,
   "originalTopRow": 49,
   "overflow": "NONE",
   "parentColumnSpace": 6.53125,
@@ -41,7 +41,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 44,
   "shouldTruncate": false,
   "text": "کتاب درحال مطالعه شما :{{Show.data[0].namesBook;\n}}",
   "textAlign": "RIGHT",

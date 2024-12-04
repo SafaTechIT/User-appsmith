@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
   "bottomRow": 32,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "canFreezeColumn": true,
   "cellBackground": "#d4d4d8",
   "childStylesheet": {
@@ -43,6 +43,7 @@
     "customColumn2": 102,
     "xn__mgb4db": 159.99999999999997
   },
+  "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -57,9 +58,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     },
     {
       "key": "tableData"
@@ -113,7 +111,7 @@
   ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
-  "horizontalAlignment": "RIGHT",
+  "horizontalAlignment": "CENTER",
   "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
   "isSortable": true,
@@ -152,7 +150,7 @@
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "CENTER",
       "id": "customColumn1",
       "index": 2,
       "isCellEditable": false,
@@ -166,14 +164,14 @@
       "label": "ثبت",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{Save.run({\"id\": currentRow.id})\n  .then(() => {\n    \n    if (Sound.data && Array.isArray(Sound.data) && Sound.data.length > 0) {\n     \n      if (currentRow.number !== undefined) {\n        storeValue(\"IdFile\", currentRow.number);\n        showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n      } else {\n        showAlert('خطا: مقدار number وجود ندارد', 'error');\n      }\n    } else {\n      showAlert('خطا: داده‌ای برای ذخیره‌سازی وجود ندارد', 'error');\n    }\n  })\n  .catch(() => {\n    showAlert('خطا در ذخیره‌سازی اطلاعات', 'error');\n  });\n}}",
+      "onClick": "{{Save.run({\"id\": currentRow.id})\n  .then(() => {\n    \n    if (Sound.data && Array.isArray(Sound.data) && Sound.data.length > 0) {\n     \n      if (currentRow.number !== undefined) {\n        storeValue(\"IdFile\", currentRow.number);\n        showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n      } else {\n             showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n      }\n    } else {\n       showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n    }\n  })\n  .catch(() => {\n      showAlert('اطلاعات با موفقیت ذخیره شد', 'success');\n  });\n}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textColor": "#7f1d1d",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     },
     "customColumn2": {
@@ -194,7 +192,7 @@
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "CENTER",
       "id": "customColumn2",
       "index": 3,
       "isCellEditable": false,
@@ -215,7 +213,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     },
     "id": {
@@ -230,7 +228,7 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "CENTER",
       "id": "id",
       "index": 1,
       "isCellEditable": false,
@@ -249,7 +247,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     },
     "name": {
@@ -264,7 +262,7 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "RIGHT",
+      "horizontalAlignment": "CENTER",
       "id": "name",
       "index": 1,
       "isCellEditable": false,
@@ -283,7 +281,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     }
   },
@@ -297,8 +295,9 @@
   "topRow": 0,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
   "version": 2,
-  "verticalAlignment": "CENTER",
+  "verticalAlignment": "BOTTOM",
   "widgetId": "v3csujxqhk",
   "widgetName": "Table1"
 }

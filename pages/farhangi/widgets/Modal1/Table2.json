@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderColor": "#E0DEDE",
+  "borderColor": "#fca5a5",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
   "bottomRow": 33,
@@ -36,6 +36,7 @@
   ],
   "columnUpdatedAt": 1733013691851,
   "columnWidthMap": {},
+  "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -72,7 +73,7 @@
   "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
-  "horizontalAlignment": "LEFT",
+  "horizontalAlignment": "RIGHT",
   "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
   "isSortable": true,
@@ -106,7 +107,7 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "LEFT",
+      "horizontalAlignment": "RIGHT",
       "id": "IDFile",
       "index": 0,
       "isCellEditable": false,
@@ -125,7 +126,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     },
     "name": {
@@ -140,7 +141,7 @@
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
-      "horizontalAlignment": "LEFT",
+      "horizontalAlignment": "RIGHT",
       "id": "name",
       "index": 0,
       "isCellEditable": false,
@@ -159,7 +160,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "BOTTOM",
       "width": 150
     }
   },
@@ -174,7 +175,7 @@
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
-  "verticalAlignment": "CENTER",
+  "verticalAlignment": "BOTTOM",
   "widgetId": "4lgak6gl39",
   "widgetName": "Table2"
 }
