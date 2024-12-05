@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "boxShadow": "none",
   "buttonColor": "#a16207",
   "buttonVariant": "SECONDARY",
@@ -29,20 +29,20 @@
   "isLoading": false,
   "isVisible": true,
   "key": "3cukchewyz",
-  "leftColumn": 56,
+  "leftColumn": 54,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
   "mobileRightColumn": 62,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{  navigateTo('Menu Student', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{  navigateTo('Login', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.3173828125,
-  "parentId": "0sdqbzne9p",
+  "parentId": "wpn1ifjk6f",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "searchTags": [
     "click",
     "submit"
@@ -51,9 +51,9 @@
     "Buttons"
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-  "topRow": 0,
+  "topRow": 1,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "z882dwxwbf",
+  "widgetId": "xq3w3zsdyc",
   "widgetName": "IcnLogout"
 }

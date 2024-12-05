@@ -29,7 +29,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "3cukchewyz",
-  "leftColumn": 56,
+  "leftColumn": 54,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
@@ -38,11 +38,11 @@
   "needsErrorInfo": false,
   "onClick": "{{  navigateTo('Menu Student', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.3173828125,
-  "parentId": "0sdqbzne9p",
+  "parentId": "dqz1wcfygo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "searchTags": [
     "click",
     "submit"
@@ -54,6 +54,6 @@
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "z882dwxwbf",
+  "widgetId": "0iw6ot9co1",
   "widgetName": "IcnLogout"
 }

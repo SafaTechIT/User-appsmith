@@ -1,5 +1,5 @@
 SELECT id, dateTime as t, stude, exercise, course, insertDate
 FROM TimeUse 
 WHERE userId = {{appsmith.store.userId}} 
-ORDER BY dateTime
-DESC;
+ORDER BY dateTime DESC
+LIMIT 11;

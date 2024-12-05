@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66d763beedc53936732abcef_6a9a8eb0-807d-4b42-8277-f9f8e776f26e",
-  "id": "Submit_SelectData",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_ca0fd16c-f9e4-4489-a813-2deaacecef78",
+  "id": "farhangi_GetUesrName",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id, dateTime as t, stude, exercise, course, insertDate\nFROM TimeUse \nWHERE userId = {{appsmith.store.userId}} \nORDER BY dateTime DESC\nLIMIT 11;",
+      "body": "SELECT * FROM Users WHERE userId={{appsmith.store.userId}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "SelectData",
-    "pageId": "Submit",
+    "name": "GetUesrName",
+    "pageId": "farhangi",
     "userSetOnLoad": false
   }
 }
