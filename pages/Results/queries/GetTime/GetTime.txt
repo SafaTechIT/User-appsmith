@@ -1,0 +1,16 @@
+SELECT 
+    Users.userId, 
+    (SELECT Users.name FROM Users WHERE Users.userId = TimeUse.userId) AS n,
+    SUM(stude) AS s, 
+    SUM(exercise) AS e, 
+    SUM(course) AS c 
+FROM 
+    TimeUse
+JOIN 
+    Users ON TimeUse.userId = Users.userId 
+WHERE 
+    Users.userId = {{appsmith.store.userId}}
+GROUP BY 
+    Users.userId
+ORDER BY 
+    Users.userId;

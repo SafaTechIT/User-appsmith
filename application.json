@@ -57,6 +57,10 @@
     {
       "id": "farhangi",
       "isDefault": false
+    },
+    {
+      "id": "Results",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

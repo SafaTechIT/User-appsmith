@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 37,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -21,6 +21,9 @@
     },
     {
       "key": "groupButtons.groupButton0j64cydgdw.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3s8tgmj8gb.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -32,6 +35,9 @@
     },
     {
       "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3s8tgmj8gb.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -43,6 +49,9 @@
     },
     {
       "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3s8tgmj8gb.onClick"
     }
   ],
   "groupButtons": {
@@ -106,6 +115,24 @@
       "onClick": "{{navigateTo('farhangi', {}, 'SAME_WINDOW').then(() => {})}}",
       "placement": "CENTER",
       "widgetId": ""
+    },
+    "groupButton3s8tgmj8gb": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "alignment-bottom",
+      "id": "groupButton3s8tgmj8gb",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "نتایج",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Results', {}, 'SAME_WINDOW').then(() => {})}}",
+      "placement": "START",
+      "variant": "filled",
+      "widgetId": "kz57la6kh1"
     }
   },
   "isCanvas": false,
@@ -128,7 +155,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 62,
-  "topRow": 11,
+  "topRow": 29,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "f799jxmn8v",

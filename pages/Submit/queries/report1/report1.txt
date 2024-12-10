@@ -1,0 +1,1 @@
+ SELECT SUM(stude) FROM TimeUse WHERE userId ={{appsmith.store.userId}}
