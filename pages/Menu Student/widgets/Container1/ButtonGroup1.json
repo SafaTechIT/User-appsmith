@@ -150,7 +150,7 @@
       "index": 4,
       "isDisabled": false,
       "isSeparator": false,
-      "isVisible": false,
+      "isVisible": true,
       "itemType": "BUTTON",
       "label": "رکورد ورزشی",
       "menuItems": {},
