@@ -1,0 +1,6 @@
+INSERT INTO record(idUser,Shena,Shekam,Date)
+VALUES(
+{{appsmith.store.userId}},
+{{inpshena.text}},
+{{inpshecam.text}},
+{{Select1Copy.selectedOptionValue}})

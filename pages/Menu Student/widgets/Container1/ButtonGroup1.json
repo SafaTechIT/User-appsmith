@@ -24,6 +24,9 @@
     },
     {
       "key": "groupButtons.groupButton3s8tgmj8gb.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonm01ywyguhs.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -38,6 +41,9 @@
     },
     {
       "key": "groupButtons.groupButton3s8tgmj8gb.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonm01ywyguhs.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -52,6 +58,9 @@
     },
     {
       "key": "groupButtons.groupButton3s8tgmj8gb.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonm01ywyguhs.onClick"
     }
   ],
   "groupButtons": {
@@ -133,6 +142,22 @@
       "placement": "START",
       "variant": "filled",
       "widgetId": "kz57la6kh1"
+    },
+    "groupButtonm01ywyguhs": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonm01ywyguhs",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": false,
+      "itemType": "BUTTON",
+      "label": "رکورد ورزشی",
+      "menuItems": {},
+      "onClick": "{{navigateTo('record', {}, 'SAME_WINDOW').then(() => {})}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "09pujpk00w"
     }
   },
   "isCanvas": false,

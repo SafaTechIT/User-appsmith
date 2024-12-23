@@ -61,6 +61,10 @@
     {
       "id": "Results",
       "isDefault": false
+    },
+    {
+      "id": "record",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

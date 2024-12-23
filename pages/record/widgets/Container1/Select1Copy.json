@@ -1,0 +1,81 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "bottomRowBeforeCollapse": 19,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( new Date().toLocaleDateString('fa-IR')))(Select1Copy.options, Select1Copy.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wowkg08hw3",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
+  "parentColumnSpace": 5.99658203125,
+  "parentId": "kkt7suuebk",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": {{new Date().toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date().toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 1)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 2)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 2)).toLocaleDateString('fa-IR')}}\n  },\n\t  {\n    \"name\":{{new Date(new Date().setDate(new Date().getDate() - 3)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 3)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 4)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 4)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 5)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 5)).toLocaleDateString('fa-IR')}}\n  },\n  {\n    \"name\": {{new Date(new Date().setDate(new Date().getDate() - 6)).toLocaleDateString('fa-IR')}},\n    \"code\": {{new Date(new Date().setDate(new Date().getDate() - 6)).toLocaleDateString('fa-IR')}}\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 1,
+  "topRowBeforeCollapse": 15,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "1jodq64vov",
+  "widgetName": "Select1Copy"
+}

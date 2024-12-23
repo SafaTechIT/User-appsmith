@@ -1,29 +1,25 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 28,
-  "boxShadow": "none",
-  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "defaultImage": "https://s3.dana.ir/dana/uploads/17/12/1398/1588703.jpg",
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://s3.dana.ir/dana/uploads/17/12/1398/1588703.jpg",
+  "image": "",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
-  "key": "7wl57j6pak",
+  "key": "5o2f6wsfjk",
   "leftColumn": 0,
   "maxZoomLevel": 1,
-  "mobileBottomRow": 12,
-  "mobileLeftColumn": 26,
-  "mobileRightColumn": 38,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
   "objectFit": "cover",
   "parentColumnSpace": 6.3173828125,
@@ -34,6 +30,6 @@
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "1vg74ydwd8",
+  "widgetId": "lq8rnmzxf0",
   "widgetName": "Image1"
 }
