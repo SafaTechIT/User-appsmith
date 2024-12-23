@@ -1,6 +1,7 @@
-INSERT INTO record(idUser,Shena,Shekam,Date)
+INSERT INTO record(idUser,Shena,Shekam,Date,insertdate)
 VALUES(
 {{appsmith.store.userId}},
 {{inpshena.text}},
 {{inpshecam.text}},
-{{Select1Copy.selectedOptionValue}})
+{{Select1Copy.selectedOptionValue}},
+NOW())
