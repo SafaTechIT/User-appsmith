@@ -1,5 +1,4 @@
 UPDATE Books
 SET namesBook = {{Input1.text}} 
 WHERE userID = {{appsmith.store.userId}} 
-AND {{Input1.text}} IS NOT NULL 
-AND {{Input1.text}} <> '';
+;
