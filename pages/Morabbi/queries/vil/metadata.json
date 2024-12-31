@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT MessagePrivate.message FROM MessagePrivate WHERE id={{appsmith.store.idmessage}};",
+      "body": "SELECT MessagePrivate.message FROM MessagePrivate WHERE id={{appsmith.store.idm}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 23,
+  "bottomRow": 15,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "defaultText": "{{vil.data[0].message;\n}}",
   "dynamicBindingPathList": [
@@ -38,7 +38,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 15,
+  "originalBottomRow": 23,
   "originalTopRow": 7,
   "parentColumnSpace": 6.4921875,
   "parentId": "jaia58gqxy",
