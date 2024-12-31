@@ -1,0 +1,1 @@
+SELECT MessagePrivate.message FROM MessagePrivate WHERE id={{appsmith.store.idmessage}};
