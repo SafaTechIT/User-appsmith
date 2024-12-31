@@ -1,4 +1,5 @@
 SELECT id, message
 FROM MessagePrivate
+WHERE dest={{appsmith.store.userId}}
 ORDER BY id
 DESC;
