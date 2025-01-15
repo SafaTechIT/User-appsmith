@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowScroll": false,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 43,
-  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "chartData": {
     "y8h3s6kthi": {
       "data": "{{ChartDatas.data}}",
@@ -65,9 +65,6 @@
   "dynamicBindingPathList": [
     {
       "key": "customEChartConfig"
-    },
-    {
-      "key": "borderRadius"
     },
     {
       "key": "accentColor"

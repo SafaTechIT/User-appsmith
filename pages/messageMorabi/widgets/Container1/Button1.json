@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
+  "bottomRow": 35,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,11 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -27,31 +23,31 @@
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
-  "key": "xy1iy6qjc9",
-  "leftColumn": 21,
+  "isVisible": false,
+  "key": "jwvi1071eo",
+  "leftColumn": 23,
   "minWidth": 120,
-  "mobileBottomRow": 37,
-  "mobileLeftColumn": 21,
-  "mobileRightColumn": 37,
-  "mobileTopRow": 33,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "onClick": "{{ShowInsert.run().then(() => {\n  showModal(Modal1.name);\n}).catch(() => {\n  showAlert('خطا در دریافت اطلاعات', 'error');\n});}}",
-  "originalBottomRow": 42,
-  "originalTopRow": 38,
-  "parentColumnSpace": 6.53125,
-  "parentId": "dqz1wcfygo",
+  "onClick": "{{\n\n}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "parentColumnSpace": 6.3173828125,
+  "parentId": "9st5rrofij",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 37,
-  "text": "گزارش",
-  "topRow": 38,
+  "rightColumn": 39,
+  "text": "Submit",
+  "topRow": 31,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "y1px1vgysu",
-  "widgetName": "Button2"
+  "widgetId": "ee7tpxz7yi",
+  "widgetName": "Button1"
 }

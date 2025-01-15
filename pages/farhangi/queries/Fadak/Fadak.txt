@@ -1,3 +1,0 @@
-INSERT INTO Fadak (Usr, Cehcking)
-SELECT {{appsmith.store.userId}}, {{Switch1.isSwitchedOn}}
-WHERE {{Switch1.isSwitchedOn}} = true;
