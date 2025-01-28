@@ -15,7 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconAlign": "left",
@@ -42,6 +42,8 @@
   "mobileRightColumn": 27,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
+  "originalBottomRow": 7,
+  "originalTopRow": 3,
   "parentColumnSpace": 6.3173828125,
   "parentId": "39a2ad02fz",
   "parentRowSpace": 10,

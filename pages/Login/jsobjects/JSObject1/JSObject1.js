@@ -14,7 +14,7 @@ export default {
 						case 1:
 							navigateTo('Morabbi', {}, 'SAME_WINDOW').then(() => {})
 							break;
-						case 2:
+						case 5:
 							navigateTo('KomakMorabbi', {}, 'SAME_WINDOW').then(() => {})
 							break;
            	default:

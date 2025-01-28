@@ -1,4 +1,4 @@
-SELECT Abroody_1.*, Users.roll
-FROM Abroody_1
-JOIN Users ON Users.userId=Abroody_1.userid
-ORDER BY Abroody_1.userid;
+SELECT passwords.*, Users.roll
+FROM passwords
+JOIN Users ON Users.userId=passwords.userid
+ORDER BY passwords.userid;
