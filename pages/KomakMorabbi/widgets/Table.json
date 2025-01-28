@@ -66,9 +66,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.s.computedValue"
     },
     {
@@ -82,6 +79,9 @@
     },
     {
       "key": "primaryColumns.n.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -285,7 +285,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "tableData": "{{GetTime.data}}",
+  "tableData": "{{get.data}}",
   "tags": [
     "Suggested",
     "Display"
