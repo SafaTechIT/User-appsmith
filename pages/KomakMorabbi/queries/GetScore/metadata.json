@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66d763beedc53936732abcef_cd8c801a-350d-46e3-911b-3db71940e1b5",
-  "id": "Submit_GetPassword",
+  "gitSyncId": "671f75aa0971a32bcdd71b43_5049c55d-cc46-4ce8-bbb9-b0047d2e2598",
+  "id": "KomakMorabbi_GetScore",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM passwords WHERE userid={{appsmith.store.userId}} LIMIT 1;",
+      "body": "SELECT Users.name ,Scores.course, Scores.exercise, Scores.study, Scores.userId FROM Scores JOIN Users ON Users.userId=Scores.userId ORDER BY Scores.userId;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,14 +22,10 @@
       "name": "Abozar",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "GetPassword",
-    "pageId": "Submit",
-    "userSetOnLoad": true
+    "name": "GetScore",
+    "pageId": "KomakMorabbi",
+    "userSetOnLoad": false
   }
 }
